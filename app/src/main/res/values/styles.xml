@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:buttonStyle">@style/ButtonTypeface</item>
+        <item name="android:textViewStyle">@style/TextViewTypeface</item>
+    </style>
+
+    <style name="ButtonTypeface" parent="@android:style/Widget.DeviceDefault.Button">
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="TextViewTypeface" parent="@android:style/Widget.DeviceDefault.TextView">
+        <item name="android:typeface">serif</item>
+    </style>
+
+</resources>
