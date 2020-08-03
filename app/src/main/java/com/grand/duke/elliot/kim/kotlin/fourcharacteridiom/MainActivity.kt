@@ -1,30 +1,40 @@
 package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
 
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.IOException
 import java.nio.charset.Charset
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashSet
 
 
 class MainActivity : AppCompatActivity() {
 
-    var idioms = ArrayList<IdiomModel>()
-    var myIdiomIds = mutableSetOf<Int>()
     var selectedPart = SelectedPart.NOT_SELECTED
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        setSupportActionBar(toolbar)
+        supportActionBar?.title = "매일 사자성어"
+        toolbar.setBackgroundColor(ContextCompat.getColor(this, R.color.colorToolbar))
+
         idioms = getIdiomsFromAssets()
+        Collections.sort(idioms, Comparator { o1: IdiomModel, o2: IdiomModel ->
+            return@Comparator o1.koreanCharacters.compareTo(o2.koreanCharacters)
+        })
 
         button_my_idioms.setOnClickListener {
             selectedPart = SelectedPart.MY_IDIOMS
@@ -49,6 +59,21 @@ class MainActivity : AppCompatActivity() {
         button_quiz.setOnClickListener {
             selectedPart = SelectedPart.QUIZ
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_view_options, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        viewOption = when(item.itemId) {
+            R.id.item_card_view -> CARD_VIEW
+            R.id.item_page_view -> PAGE_VIEW
+            else -> viewOption
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 
     private fun openIdiomsView() {
@@ -125,6 +150,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
+        var idioms = ArrayList<IdiomModel>()
+        var myIdiomIds = mutableSetOf<Int>()
+
         const val TAG_CARD_VIEW_FRAGMENT = "tag.card.view.fragment"
 
         const val KEY_CATEGORY = "main.activity.key.category"
@@ -132,7 +160,7 @@ class MainActivity : AppCompatActivity() {
         const val CARD_VIEW = 0
         const val PAGE_VIEW = 1
 
-        var viewOption = 0
+        var viewOption = 1
 
         const val PREFERENCES_MY_IDIOMS = "preferences_my_idioms"
         const val KEY_MY_IDIOM_IDS = "key_my_idiom_ids"

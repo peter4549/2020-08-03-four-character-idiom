@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_consonants">
+        <item>-</item>
+        <item>ㄱ</item>
+        <item>ㄴ</item>
+        <item>ㄷ</item>
+        <item>ㄹ</item>
+        <item>ㅁ</item>
+        <item>ㅂ</item>
+        <item>ㅅ</item>
+        <item>ㅇ</item>
+        <item>ㅈ</item>
+        <item>ㅊ</item>
+        <item>ㅋ</item>
+        <item>ㅌ</item>
+        <item>ㅍ</item>
+        <item>ㅎ</item>
+    </string-array>
+</resources>

@@ -269,7 +269,7 @@
 		"category": 3,
 		"koreanCharacters": "각골난망",
 		"chineseCharacters": "刻骨難忘",
-		"description": "은혜를 고맙게 여기는 마음이 뼈 속까지 사무쳐 잊혀지지 아니함  白骨難忘(백골난망) ꁍ 결초보은(結草報恩) ꁍ 각골명심(刻骨銘心)",
+		"description": "은혜를 고맙게 여기는 마음이 뼈 속까지 사무쳐 잊혀지지 아니함\n ≒ 백골난망(白骨難忘)\n ≒ 결초보은(結草報恩)\n ≒ 각골명심(刻骨銘心)",
 		"meanings": [
 			"새길 각",
 			"뼈 골",
@@ -462,7 +462,7 @@
 		"category": 0,
 		"koreanCharacters": "갈이천정",
 		"chineseCharacters": "渴而穿井",
-		"description": "목이 말라서야 우물을 판다(일을 미리 준비하여 두지않고 임박하여 급히 하면 이미 때가 늦는다) ꁍ 臨渴掘井(임갈굴정)",
+		"description": "목이 말라서야 우물을 판다(일을 미리 준비하여 두지않고 임박하여 급히 하면 이미 때가 늦는다) ≒ 임갈굴정(臨渴掘井)",
 		"meanings": [
 			"목마를 갈, 물 잦을 걸, 물 거슬러 흐를 할",
 			"말 이을 이, 능히 능",
@@ -489,7 +489,7 @@
 		"category": 3,
 		"koreanCharacters": "감불생심",
 		"chineseCharacters": "敢不生心",
-		"description": "감히 생각도 못함 ꁍ 감불생의(敢不生意)",
+		"description": "감히 생각도 못함\n ≒ 감불생의(敢不生意)",
 		"meanings": [
 			"감히 감/구태여 감",
 			"아닐 부, 아닐 불",
@@ -597,7 +597,7 @@
 		"category": 3,
 		"koreanCharacters": "갑남을녀",
 		"chineseCharacters": "甲男乙女",
-		"description": "보통 평범한 남녀ꁍ 張三李四(장삼이사) ꁍ 善男善女(선남 선녀)ꁍ 樵童汲婦(초동급부) ꁍ 匹夫匹婦(필부필부)",
+		"description": "보통 평범한 남녀\n ≒ 장삼이사(張三李四)\n ≒ 선남선녀(善男善女)\n ≒ 초동급부(樵童汲婦)\n ≒ 필부필부(匹夫匹婦)",
 		"meanings": [
 			"갑옷 갑, 친압할 압",
 			"사내 남",
@@ -792,7 +792,7 @@
 		"category": 0,
 		"koreanCharacters": "개문납적",
 		"chineseCharacters": "開門納賊",
-		"description": "문을 열고 도둑을 불러들인다는 말로 스스로 재난을 불러 들인다는 뜻ꁍ 개문읍도(開門揖盜)",
+		"description": "문을 열고 도둑을 불러들인다는 말로 스스로 재난을 불러 들인다는 뜻\n ≒ 개문읍도(開門揖盜)",
 		"meanings": [
 			"열 개, 평평할 견",
 			"문 문",
@@ -805,7 +805,7 @@
 		"category": 0,
 		"koreanCharacters": "개선광정",
 		"chineseCharacters": "改善匡正",
-		"description": "좋도록 고치고 바로잡음 ꁍ 개과천선(改過遷善)",
+		"description": "좋도록 고치고 바로잡음\n ≒ 개과천선(改過遷善)",
 		"meanings": [
 			"고칠 개",
 			"착할 선",
@@ -844,7 +844,7 @@
 		"category": 0,
 		"koreanCharacters": "객반위주",
 		"chineseCharacters": "客反爲主",
-		"description": "주객이 전도됨 ꁍ 주객전도(主客顚倒)",
+		"description": "주객이 전도됨\n ≒ 주객전도(主客顚倒)",
 		"meanings": [
 			"손 객",
 			"돌이킬 반/돌아올 반, 어려울 번, 삼갈 판",
@@ -1064,7 +1064,7 @@
 		"category": 0,
 		"koreanCharacters": "거허박영",
 		"chineseCharacters": "據虛博影",
-		"description": "어찌할 수 없는 것 ꁍ 속수무책(束手無策)",
+		"description": "어찌할 수 없는 것\n ≒ 속수무책(束手無策)",
 		"meanings": [
 			"근거 거",
 			"빌 허",
@@ -1103,7 +1103,7 @@
 		"category": 0,
 		"koreanCharacters": "건목수생",
 		"chineseCharacters": "乾木水生",
-		"description": "마른나무에서 물이 난다는 뜻으로 아무것도 없는 사람에게 무엇을 무리하게 내라고 요구함을 비유하는 말강목수생(剛木水生)",
+		"description": "마른나무에서 물이 난다는 뜻으로 아무것도 없는 사람에게 무엇을 무리하게 내라고 요구함을 비유하는 말\n ≒강목수생(剛木水生)",
 		"meanings": [
 			"하늘 건/마를 건, 마를 간",
 			"나무 목",
@@ -12532,7 +12532,7 @@
 		"category": 0,
 		"koreanCharacters": "사귀일성",
 		"chineseCharacters": "四歸一成",
-		"description": "넷이 모여 하나를 이룸 목화 4근이 솜 1근으로, 수삼",
+		"description": "넷이 모여 하나를 이룸. 목화 네 근이 솜 한 근으로, 수삼 네 근이 건삼 한 근으로 되는 것 따위를 이른다. = 사구일생(四俱一生)",
 		"meanings": [
 			"넉 사",
 			"돌아갈 귀",
@@ -12543,9 +12543,9 @@
 	{
 		"id": "958",
 		"category": 0,
-		"koreanCharacters": "근이건삼1근으로되는것ꁍ사구일생",
+		"koreanCharacters": "사구일생",
 		"chineseCharacters": "四俱一生",
-		"description": "",
+		"description": "1. 넷이 모여 하나를 이룸. 목화 네 근이 솜 한 근으로, 수삼 네 근이 건삼 한 근으로 되는 것 따위를 이른다. = 사귀일성(四歸一成) \n2. 이랬다저랬다 하여 걷잡을 수 없는 모양을 이르는 말.",
 		"meanings": [
 			"넉 사",
 			"함께 구/갖출 구",

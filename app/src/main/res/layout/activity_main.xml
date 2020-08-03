@@ -22,56 +22,60 @@
             <Button
                 android:id="@+id/button_my_idioms"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="72dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/background_light_yellow"
-                android:padding="16dp"
+                android:gravity="center"
+                android:padding="12dp"
                 android:text="내 사자성어"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/button_all_idioms"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="72dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/background_light_yellow"
-                android:padding="16dp"
+                android:gravity="center"
+                android:padding="12dp"
                 android:text="모든 사자성어"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/button_civil_service_examination_idioms"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="72dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/background_light_yellow"
-                android:padding="16dp"
+                android:gravity="center"
+                android:padding="12dp"
                 android:text="공무원 사자성어"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/button_sat_idioms"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="72dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/background_light_yellow"
-                android:padding="16dp"
+                android:padding="12dp"
                 android:text="수능 사자성어"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
             <Button
                 android:id="@+id/button_quiz"
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
+                android:layout_height="72dp"
                 android:layout_margin="8dp"
                 android:background="@drawable/background_light_yellow"
-                android:padding="16dp"
+                android:gravity="center"
+                android:padding="12dp"
                 android:text="퀴즈"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:textStyle="bold"/>
 
         </LinearLayout>
