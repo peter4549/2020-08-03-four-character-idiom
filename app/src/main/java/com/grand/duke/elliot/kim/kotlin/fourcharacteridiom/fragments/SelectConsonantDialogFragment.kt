@@ -1,5 +1,7 @@
-package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
+package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments
 
+import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
 import android.view.View
@@ -7,10 +9,12 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.R
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.ViewPagerActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
-import kotlinx.android.synthetic.main.fragment_select_consonant_dialog.*
+import kotlinx.android.synthetic.main.fragment_select_consonant_dialog.view.*
 
-class SelectConsonantsDialogFragment : DialogFragment() {
+class SelectConsonantDialogFragment : DialogFragment() {
 
     private lateinit var activity: ViewPagerActivity
     private lateinit var fragment: CardViewFragment
@@ -19,26 +23,30 @@ class SelectConsonantsDialogFragment : DialogFragment() {
     private var selectedConsonant = ""
 
     fun setActivity(activity: ViewPagerActivity) {
-        previousView = VIEW_PAGER_ACTIVITY
+        previousView =
+            VIEW_PAGER_ACTIVITY
         this.activity = activity
         this.idioms = activity.idioms
     }
 
     fun setFragment(fragment: CardViewFragment) {
-        previousView = CARD_VIEW_FRAGMENT
+        previousView =
+            CARD_VIEW_FRAGMENT
         this.fragment = fragment
         this.idioms = fragment.idioms
     }
 
+    @SuppressLint("InflateParams")
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        val dialog = Dialog(requireContext())
-        dialog.setContentView(R.layout.fragment_select_consonant_dialog)
+        val builder = AlertDialog.Builder(requireContext())
+        val view = requireActivity().layoutInflater.inflate(R.layout.fragment_select_consonant_dialog, null)
+        builder.setView(view)
 
         val consonants = resources.getStringArray(R.array.string_array_consonants)
 
-        dialog.spinner.adapter =
-            ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, consonants)
-        dialog.spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
+        view.spinner.adapter =
+            ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, consonants)
+        view.spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
             }
@@ -64,7 +72,7 @@ class SelectConsonantsDialogFragment : DialogFragment() {
             }
         }
 
-        dialog.frame_layout_ok.setOnClickListener {
+        view.frame_layout_ok.setOnClickListener {
             if (selectedConsonant.isBlank())
                 dismiss()
             else {
@@ -77,13 +85,14 @@ class SelectConsonantsDialogFragment : DialogFragment() {
                         fragment.scrollToIdiomPosition(idiomFound)
                         dismiss()
                     } else if (previousView == VIEW_PAGER_ACTIVITY) {
-                        ""
+                        activity.scrollToIdiomPosition(idiomFound)
+                        dismiss()
                     }
                 }
             }
         }
 
-        return dialog
+        return builder.create()
     }
 
     private fun findFirstIdiomStartWithConsonant(consonant: String): IdiomModel? {

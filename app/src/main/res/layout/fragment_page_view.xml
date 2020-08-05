@@ -3,17 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PageViewFragment">
+    tools:context=".fragments.PageViewFragment">
 
     <ScrollView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/colorBackgroundYellow">
 
             <TextView
                 android:id="@+id/text_view_korean_characters"
@@ -49,7 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:lineSpacingMultiplier="1.2"
+                android:lineSpacingMultiplier="1.1"
                 android:textSize="16sp"
                 android:paddingEnd="12dp"
                 android:paddingStart="12dp"

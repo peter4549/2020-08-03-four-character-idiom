@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorLightGreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/select_part"
+        android:textSize="20sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="16dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_light_yellow">
+
+            <Button
+                android:id="@+id/button_my_idioms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/my_idioms"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_light_yellow">
+
+            <Button
+                android:id="@+id/button_all_idioms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/all_idioms"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_light_yellow">
+
+            <Button
+                android:id="@+id/button_civil_service_examination_idioms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/civil_service_examination_idioms"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/background_light_yellow">
+
+            <Button
+                android:id="@+id/button_sat_idioms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:text="@string/sat_idioms"
+                android:textSize="18sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>

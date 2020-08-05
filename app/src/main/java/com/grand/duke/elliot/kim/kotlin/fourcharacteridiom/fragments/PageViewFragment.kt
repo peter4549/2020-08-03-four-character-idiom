@@ -1,10 +1,11 @@
-package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
+package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.R
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.fragment_page_view.view.*
 
@@ -28,5 +29,4 @@ class PageViewFragment : Fragment() {
     fun setIdiom(idiom: IdiomModel) {
         this.idiom = idiom
     }
-
 }

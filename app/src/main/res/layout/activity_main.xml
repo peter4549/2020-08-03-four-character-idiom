@@ -4,7 +4,7 @@
     android:id="@+id/relative_layout_activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -12,72 +12,136 @@
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize" />
 
-        <LinearLayout
+    <FrameLayout
+        android:id="@+id/frame_layout_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ad_view"
+        android:layout_below="@id/toolbar">
+
+        <ScrollView
+            android:id="@+id/scroll_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/toolbar"
-            android:orientation="vertical"
-            android:background="@drawable/bamboo_background">
+            tools:ignore="UselessParent">
 
-            <Button
-                android:id="@+id/button_my_idioms"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/background_light_yellow"
-                android:gravity="center"
-                android:padding="12dp"
-                android:text="내 사자성어"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bamboo_background">
 
-            <Button
-                android:id="@+id/button_all_idioms"
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/background_light_yellow"
-                android:gravity="center"
-                android:padding="12dp"
-                android:text="모든 사자성어"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/background_light_yellow">
 
-            <Button
-                android:id="@+id/button_civil_service_examination_idioms"
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/background_light_yellow"
-                android:gravity="center"
-                android:padding="12dp"
-                android:text="공무원 사자성어"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/button_my_idioms"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="@string/my_idioms"
+                        android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/button_sat_idioms"
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/background_light_yellow"
-                android:padding="12dp"
-                android:text="수능 사자성어"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                </FrameLayout>
 
-            <Button
-                android:id="@+id/button_quiz"
-                android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_margin="8dp"
-                android:background="@drawable/background_light_yellow"
-                android:gravity="center"
-                android:padding="12dp"
-                android:text="퀴즈"
-                android:textSize="20sp"
-                android:textStyle="bold"/>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/background_light_yellow">
 
-        </LinearLayout>
+                    <Button
+                        android:id="@+id/button_all_idioms"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="@string/all_idioms"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/background_light_yellow">
+
+                    <Button
+                        android:id="@+id/button_civil_service_examination_idioms"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="@string/civil_service_examination_idioms"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/background_light_yellow">
+
+                    <Button
+                        android:id="@+id/button_sat_idioms"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:padding="12dp"
+                        android:text="@string/sat_idioms"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="6dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:background="@drawable/background_light_yellow">
+
+                    <Button
+                        android:id="@+id/button_quiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:text="@string/quiz"
+                        android:textSize="20sp" />
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
 
 </RelativeLayout>

@@ -1,15 +1,21 @@
-package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
+package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.adapters
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Filter
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.MainActivity
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.R
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.SelectedPart
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.ViewPagerActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.item_view.view.*
+import kotlinx.android.synthetic.main.item_view_search_result.view.*
 
-class RecyclerViewAdapter(private val activity: MainActivity, private val idioms: ArrayList<IdiomModel>) :
+class RecyclerViewAdapter(private val activity: AppCompatActivity, private val idioms: ArrayList<IdiomModel>) :
     RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
     private var filteredIdioms = idioms
@@ -19,8 +25,14 @@ class RecyclerViewAdapter(private val activity: MainActivity, private val idioms
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): RecyclerViewAdapter.ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_view, parent, false)
+    ): ViewHolder {
+        val itemViewId =
+            if (activity is MainActivity)
+                R.layout.item_view
+            else
+                R.layout.item_view_search_result
+
+        val view = LayoutInflater.from(parent.context).inflate(itemViewId, parent, false)
         return ViewHolder(view)
     }
 
@@ -28,9 +40,16 @@ class RecyclerViewAdapter(private val activity: MainActivity, private val idioms
         return filteredIdioms.size
     }
 
-    override fun onBindViewHolder(holder: RecyclerViewAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val idiom = filteredIdioms[position]
 
+        if (activity is MainActivity)
+            bindViewHolderInMainActivity(activity, holder, idiom)
+        else if (activity is ViewPagerActivity)
+            bindViewHolderInViewPagerActivity(holder, idiom)
+    }
+
+    private fun bindViewHolderInMainActivity(activity: MainActivity, holder: ViewHolder, idiom: IdiomModel) {
         holder.view.text_view_korean_characters.text = idiom.koreanCharacters
         holder.view.text_view_chinese_characters.text = idiom.chineseCharacters
         holder.view.text_view_description.text = idiom.description
@@ -43,13 +62,12 @@ class RecyclerViewAdapter(private val activity: MainActivity, private val idioms
                 R.drawable.ic_star_grey_36dp
 
         holder.view.image_view_star.setImageResource(imageResources)
-
         holder.view.image_view_star.setOnClickListener {
             if (idiom.id in MainActivity.myIdiomIds) {
                 activity.showToast("내 사자성어에서 제외되었습니다.", Toast.LENGTH_SHORT)
                 MainActivity.myIdiomIds.remove(idiom.id)
                 holder.view.image_view_star.setImageResource(R.drawable.ic_star_grey_36dp)
-                if (activity.selectedPart == SelectedPart.MY_IDIOMS) {
+                if (MainActivity.selectedPart == SelectedPart.MY_IDIOMS) {
                     remove(idiom)
                 }
             } else {
@@ -60,6 +78,13 @@ class RecyclerViewAdapter(private val activity: MainActivity, private val idioms
         }
     }
 
+    private fun bindViewHolderInViewPagerActivity(holder: ViewHolder, idiom: IdiomModel) {
+        val text = "${idiom.koreanCharacters} (${idiom.chineseCharacters})"
+        holder.view.text_view.text = text
+        holder.view.setOnClickListener {
+            (activity as ViewPagerActivity).scrollToIdiomPosition(idiom)
+        }
+    }
 
     private fun remove(idiom: IdiomModel) {
         val position = getPosition(idiom)
@@ -100,7 +125,6 @@ class RecyclerViewAdapter(private val activity: MainActivity, private val idioms
 
                 notifyDataSetChanged()
             }
-
         }
     }
 }

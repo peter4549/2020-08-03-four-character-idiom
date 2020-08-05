@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
     android:orientation="vertical"
     android:background="@color/colorLime">
 
@@ -14,7 +15,7 @@
         android:paddingEnd="16dp"
         android:paddingStart="16dp"
         android:paddingTop="12dp"
-        android:text="선택한 자음부터 보기"
+        android:text="@string/view_from_selected_consonant"
         android:textSize="20sp"
         android:background="@color/colorToolbar"/>
 
@@ -28,8 +29,8 @@
             android:id="@+id/spinner"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="8dp"/>
+            android:layout_margin="8dp"
+            android:layout_weight="1"/>
 
         <FrameLayout
             android:id="@+id/frame_layout_ok"
@@ -52,9 +53,6 @@
                 android:textSize="16sp"/>
 
         </FrameLayout>
-
-
-
 
     </LinearLayout>
 

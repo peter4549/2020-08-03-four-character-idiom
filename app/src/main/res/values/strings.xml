@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Four Character Idiom</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ad_mob_app_id">ca-app-pub-2713759975650849~7750570384</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2713759975650849/2661895236</string>
+    <!-- <string name="banner_ad_unit_id_for_text">ca-app-pub-3940256099942544/6300978111</string> -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-2713759975650849/1366670024</string>
+    <!-- <string name="interstitial_ad_unit_id_for_test">ca-app-pub-3940256099942544/1033173712</string> -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="view_options">보기 옵션</string>
     <string name="view_in_card_view">카드뷰로 보기</string>
@@ -9,4 +14,23 @@
     <string name="search">검색</string>
     <string name="view_from_consonants">자음부터 보기</string>
     <string name="ok">확인</string>
+    <string name="star">star</string>
+    <string name="no_idioms">등록된 사자성어가 없습니다.</string>
+    <string name="my_idioms">내 사자성어</string>
+    <string name="all_idioms">모든 사자성어</string>
+    <string name="civil_service_examination_idioms">공무원 사자성어</string>
+    <string name="sat_idioms">수능 사자성어</string>
+    <string name="quiz">퀴즈</string>
+    <string name="select_part">범위 선택</string>
+    <string name="select_count">개수 선택</string>
+    <string name="random_25_quizzes">랜덤 25문제</string>
+    <string name="random_50_quizzes">랜덤 50문제</string>
+    <string name="random_100_quizzes">랜덤 100문제</string>
+    <string name="random_200_quizzes">랜덤 200문제</string>
+    <string name="view_from_selected_consonant">선택한 자음부터 보기</string>
+    <string name="start_quiz">퀴즈 시작하기</string>
+    <string name="solve_continuously">이어서 풀기</string>
+    <string name="start_anew">새로 시작하기</string>
+    <string name="ask_to_quit_application">앱을 종료하시겠습니까?</string>
+    <string name="complete_quiz">축하합니다!\n퀴즈를 완료하셨습니다.</string>
 </resources>

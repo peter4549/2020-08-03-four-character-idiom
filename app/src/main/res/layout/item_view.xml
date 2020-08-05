@@ -12,7 +12,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="@color/colorBackgroundYellow">
 
             <TextView
                 android:id="@+id/text_view_korean_characters"
@@ -64,6 +65,7 @@
                     android:layout_marginEnd="16dp"
                     android:clickable="true"
                     android:focusable="true"
+                    android:contentDescription="@string/star"
                     app:srcCompat="@drawable/ic_star_grey_36dp"/>
 
             </RelativeLayout>

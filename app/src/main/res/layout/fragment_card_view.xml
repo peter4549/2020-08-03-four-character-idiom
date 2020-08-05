@@ -4,12 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bamboo_background"
-    tools:context=".CardViewFragment">
+    tools:context=".fragments.CardViewFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:clickable="true"
+        android:focusable="true"
         tools:ignore="UselessParent">
 
         <androidx.appcompat.widget.Toolbar
@@ -17,6 +19,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="?attr/actionBarSize"/>
+
+        <TextView
+            android:id="@+id/text_view_no_idioms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="@color/colorLightGreen"
+            android:text="@string/no_idioms"
+            android:textSize="20sp"
+            android:visibility="gone"/>
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycler_view"
