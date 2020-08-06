@@ -53,7 +53,7 @@
 	},
 	{
 		"id": "4",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "가담항설",
 		"chineseCharacters": "街錟巷說",
 		"description": "길거리에 떠도는 소문",
@@ -92,7 +92,7 @@
 	},
 	{
 		"id": "7",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "가렴주구",
 		"chineseCharacters": "苛斂誅求",
 		"description": "세금 같은 것을 가혹하게 받아 국민을 못살게 구는 일",
@@ -199,7 +199,7 @@
 	},
 	{
 		"id": "15",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "가인박명",
 		"chineseCharacters": "佳人薄命",
 		"description": "여자의 용모가 아름다우면 운명이 기박하다는 뜻",
@@ -266,7 +266,7 @@
 	},
 	{
 		"id": "20",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "각골난망",
 		"chineseCharacters": "刻骨難忘",
 		"description": "은혜를 고맙게 여기는 마음이 뼛속까지 사무쳐 잊혀지 아니함\n= 백골난망(白骨難忘), 결초보은(結草報恩), 각골명심(刻骨銘心)",
@@ -305,7 +305,7 @@
 	},
 	{
 		"id": "23",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "각주구검",
 		"chineseCharacters": "刻舟求劍",
 		"description": "지나치게 고지식하여 경우에 맞지 않는 일을 한다는 뜻",
@@ -318,7 +318,7 @@
 	},
 	{
 		"id": "24",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "간난신고",
 		"chineseCharacters": "艱難辛苦",
 		"description": "(갖은 고초를 겪어) 몹시 힘들고 괴로움",
@@ -344,7 +344,7 @@
 	},
 	{
 		"id": "26",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "간담상조",
 		"chineseCharacters": "肝膽相照",
 		"description": "서로의 마음을 터놓고 격의 없이 지내는 사이라는 뜻",
@@ -409,7 +409,7 @@
 	},
 	{
 		"id": "31",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "간어제초",
 		"chineseCharacters": "間於齊楚",
 		"description": "약자가 강자들의 틈에 끼이어 괴로움을 받음을 이르는 말 중국 주나라 말엽에 등(縢)나라가 齊 楚 두 큰 나라 사이에 끼이어 괴로움을 당한 데에서 온 말",
@@ -486,10 +486,10 @@
 	},
 	{
 		"id": "37",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "감불생심",
 		"chineseCharacters": "敢不生心",
-		"description": "감히 생각도 못 함\n= 감불생의(敢不生意)",
+		"description": "감히 생각도 못 함, 힘이 부치어 감히 마음을 먹지 못함\n= 감불생의(敢不生意)",
 		"meanings": [
 			"감히 감/구태여 감",
 			"아닐 부, 아닐 불",
@@ -515,21 +515,8 @@
 		]
 	},
 	{
-		"id": "39",
-		"category": 2,
-		"koreanCharacters": "감불생심",
-		"chineseCharacters": "敢不生心",
-		"description": "힘이 부치어 감히 마음을 먹지 못함",
-		"meanings": [
-			"감히 감/구태여 감",
-			"아닐 부, 아닐 불",
-			"날 생",
-			"마음 심"
-		]
-	},
-	{
 		"id": "40",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "감언이설",
 		"chineseCharacters": "甘言利說",
 		"description": "남의 비위에 들도록 꾸미거나 이로운 조건을 내세워서 속이는 말",
@@ -568,7 +555,7 @@
 	},
 	{
 		"id": "43",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "감지덕지",
 		"chineseCharacters": "感之德之",
 		"description": "몹시 고맙게 여김",
@@ -581,7 +568,7 @@
 	},
 	{
 		"id": "44",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "감탄고토",
 		"chineseCharacters": "甘呑苦吐",
 		"description": "달면 삼키고 쓰면 뱉는다는 말로, 이로울 때는 이용하고, 필요 없을 때는 괄시하는 것을 말함",
@@ -594,7 +581,7 @@
 	},
 	{
 		"id": "45",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "갑남을녀",
 		"chineseCharacters": "甲男乙女",
 		"description": "보통 평범한 남녀\n= 장삼이사(張三李四), 선남선녀(善男善女), 초동급부(樵童汲婦), 필부필부(匹夫匹婦)",
@@ -607,7 +594,7 @@
 	},
 	{
 		"id": "46",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "갑론을박",
 		"chineseCharacters": "甲論乙駁",
 		"description": "자기의 주장을 세우고 남의 주장을 반박함",
@@ -750,7 +737,7 @@
 	},
 	{
 		"id": "57",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "개과천선",
 		"chineseCharacters": "改過遷善",
 		"description": "지나간 허물을 고치고 착하게 됨",
@@ -815,7 +802,7 @@
 	},
 	{
 		"id": "62",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "개세지재",
 		"chineseCharacters": "蓋世之才",
 		"description": "세상을 덮을 만한 재주",
@@ -880,7 +867,7 @@
 	},
 	{
 		"id": "67",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "거두절미",
 		"chineseCharacters": "去頭截尾",
 		"description": "앞뒤의 잔 사설을 빼놓고 요점만을 말함",
@@ -931,7 +918,7 @@
 	},
 	{
 		"id": "71",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "거안사위",
 		"chineseCharacters": "居安思危",
 		"description": "편안히 살 때 닥쳐올 위태로움을 생각함",
@@ -1035,7 +1022,7 @@
 	},
 	{
 		"id": "78",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "거자일소",
 		"chineseCharacters": "去者日疎",
 		"description": "죽은 사람에 대해서는 날이 갈수록 점점 잊어버리게 된다는 뜻 서로 떨어져 있으면 점점 사이가 멀어짐",
@@ -1048,7 +1035,7 @@
 	},
 	{
 		"id": "79",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "거재두량",
 		"chineseCharacters": "車載斗量",
 		"description": "차에 싣고 말에 실을 만큼 물건이나 인재가 썩 많음",
@@ -1193,7 +1180,7 @@
 	},
 	{
 		"id": "90",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "격물치지",
 		"chineseCharacters": "格物致知",
 		"description": "① 대학의 교과인 예악사어서수의 육예(六藝)를 받는 것이 지식을 명확히 함\n② 사물의 이치를 구명하여 자기의 지식을 확고하게 함 <주자학>\n③ 양명학의 용어로 의지가 존재하는바 사물에 의해서 부정을 바로 잡고 양지(良知)를 닦음",
@@ -1206,7 +1193,7 @@
 	},
 	{
 		"id": "91",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "격세지감",
 		"chineseCharacters": "隔世之感",
 		"description": "딴 세대와 같이 많은 변화가 있었음을 비유하는 말 (세대 차이)",
@@ -1232,7 +1219,7 @@
 	},
 	{
 		"id": "93",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "격화소양",
 		"chineseCharacters": "隔靴搔痒",
 		"description": "신을 신은 채 가려운 발바닥을 긁음, 일의 효과를 나타내지 못함",
@@ -1258,7 +1245,7 @@
 	},
 	{
 		"id": "95",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "견강부회",
 		"chineseCharacters": "牽强附會",
 		"description": "이치에 맞지 않는 말을 억지로 끌어 붙여 자기주장의 조건에 맞도록 함",
@@ -1297,10 +1284,10 @@
 	},
 	{
 		"id": "98",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "견리사의",
 		"chineseCharacters": "見利思義",
-		"description": "눈앞에 이익이 보일 때, 의리를 생각함\n= 견리망의(見利忘義)",
+		"description": "①눈앞에 이익이 보일 때, 의리를 생각함\n②이익이 있을지라도 옳은 것인가를 생각하고 취하라\n= 견리망의(見利忘義)",
 		"meanings": [
 			"볼 견, 뵈올 현",
 			"이로울 리(이)",
@@ -1310,7 +1297,7 @@
 	},
 	{
 		"id": "99",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "견마지성",
 		"chineseCharacters": "犬馬之誠",
 		"description": "임금이나 나라에 정성으로 바치는 정성 또는 자기의 정성을 낮추어 일컫는 말\n= 견마지로(犬馬之勞), 견마지심(犬馬之心)",
@@ -1375,7 +1362,7 @@
 	},
 	{
 		"id": "104",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "견문발검",
 		"chineseCharacters": "見蚊拔劍",
 		"description": "하찮은 일에 너무 크게 허둥지둥 덤벼든다, 모기보고 칼 뽑기",
@@ -1388,7 +1375,7 @@
 	},
 	{
 		"id": "105",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "견물생심",
 		"chineseCharacters": "見物生心",
 		"description": "물건을 보면 욕심이 생김",
@@ -1410,19 +1397,6 @@
 			"잇닿을 련(연)/거만할 련(연)/손숫물 련(연), 산 이름 란(난)",
 			"갈 지",
 			"친할 친"
-		]
-	},
-	{
-		"id": "107",
-		"category": 0,
-		"koreanCharacters": "견리사의",
-		"chineseCharacters": "見利思義",
-		"description": "이익이 있을지라도 옳은 것인가를 생각하고 취하라",
-		"meanings": [
-			"볼 견, 뵈올 현",
-			"이로울 리(이)",
-			"생각 사, 수염이 많을 새",
-			"옳을 의"
 		]
 	},
 	{
@@ -1517,7 +1491,7 @@
 	},
 	{
 		"id": "115",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "견위수명",
 		"chineseCharacters": "見危授命",
 		"description": "나라가 위급할 때 목숨을 바침\n= 견위치명(見危致命)",
@@ -1543,7 +1517,7 @@
 	},
 	{
 		"id": "117",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "견인불발",
 		"chineseCharacters": "堅忍不拔",
 		"description": "굳게 참고 견딤",
@@ -1569,7 +1543,7 @@
 	},
 	{
 		"id": "119",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "견토지쟁",
 		"chineseCharacters": "犬兎之爭",
 		"description": "개와 토끼가 쫓고 쫓기다가 둘이 다 지쳐 죽어 제삼자가 이익을 본다는 뜻\n= 漁父之利(어부지리), 방휼지쟁(蚌鷸之爭)",
@@ -1608,7 +1582,7 @@
 	},
 	{
 		"id": "122",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "결자해지",
 		"chineseCharacters": "結者解之",
 		"description": "자기가 저지른 일은 자기가 해결해야 함",
@@ -1621,7 +1595,7 @@
 	},
 	{
 		"id": "123",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "결초보은",
 		"chineseCharacters": "結草報恩",
 		"description": "죽어 혼령이 되어서라도 은혜를 잊지 않고 갚음",
@@ -1660,7 +1634,7 @@
 	},
 	{
 		"id": "126",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "겸양지덕",
 		"chineseCharacters": "謙讓之德",
 		"description": "겸손한 태도와 사양하는 덕",
@@ -1673,7 +1647,7 @@
 	},
 	{
 		"id": "127",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "겸인지용",
 		"chineseCharacters": "兼人之勇",
 		"description": "몇 사람을 능히 당해 낼만한 용기",
@@ -1686,7 +1660,7 @@
 	},
 	{
 		"id": "128",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "경거망동",
 		"chineseCharacters": "輕擧妄動",
 		"description": "경솔하고 분수에 없는 행동을 함",
@@ -1712,7 +1686,7 @@
 	},
 	{
 		"id": "130",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "경국제세",
 		"chineseCharacters": "經國濟世",
 		"description": "나랏일을 경륜하고 세상을 구함 → '경제'의 준말",
@@ -1725,7 +1699,7 @@
 	},
 	{
 		"id": "131",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "경국지색",
 		"chineseCharacters": "傾國之色",
 		"description": "온 나라를 움직이게 하는 미인, 뛰어나게 아름다운 미인을 일컫는 말",
@@ -1751,7 +1725,7 @@
 	},
 	{
 		"id": "133",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "경당문노",
 		"chineseCharacters": "耕當問奴",
 		"description": "농사일은 머슴에게 물어야 한다는 뜻(일은 항상 그 부분의 전문가와 상의하여 행하여야 한다는 뜻)",
@@ -1777,7 +1751,7 @@
 	},
 	{
 		"id": "135",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "경산조수",
 		"chineseCharacters": "耕山釣水",
 		"description": "산에 가 밭을 갈고 물에 가 낚시질을 함. 곧, 속세를 떠나 자연을 벗해 한가로운 생활을 함",
@@ -1803,7 +1777,7 @@
 	},
 	{
 		"id": "137",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "경이원지",
 		"chineseCharacters": "敬而遠之",
 		"description": "겉으로는 공경하는 체하면서 속으로는 멀리함",
@@ -1816,7 +1790,7 @@
 	},
 	{
 		"id": "138",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "경자유전",
 		"chineseCharacters": "耕者有田",
 		"description": "경작자가 밭을 소유한다",
@@ -1855,7 +1829,7 @@
 	},
 	{
 		"id": "141",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "경천근민",
 		"chineseCharacters": "敬天勤民",
 		"description": "하느님을 공경하고 백성을 다스리기에 부지런함",
@@ -1946,7 +1920,7 @@
 	},
 	{
 		"id": "148",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "계란유골",
 		"chineseCharacters": "鷄卵有骨",
 		"description": "달걀 속에도 뼈가 있다(골았다), 뜻밖의 장애물이 생김을 이르는 말",
@@ -1959,7 +1933,7 @@
 	},
 	{
 		"id": "149",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "계륵",
 		"chineseCharacters": "鷄肋",
 		"description": "닭의 갈비는 뜯어먹을 만한 살이 없어도 그냥 버리기엔 아깝다, 크게 쓸 것은 못 되나 버리기엔 아깝다는 것",
@@ -2048,7 +2022,7 @@
 	},
 	{
 		"id": "156",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "고군분투",
 		"chineseCharacters": "孤軍奮鬪",
 		"description": "남의 도움을 받지 아니하고 힘에 벅찬 일을 잘해냄",
@@ -2126,7 +2100,7 @@
 	},
 	{
 		"id": "162",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "고량진미",
 		"chineseCharacters": "膏梁珍味",
 		"description": "살찐 고기와 좋은 곡식으로 만든 맛있는 음식\n= 진수성찬(珍羞盛饌)",
@@ -2269,7 +2243,7 @@
 	},
 	{
 		"id": "173",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "고식지계",
 		"chineseCharacters": "姑息之計",
 		"description": "지금의 편안함만을 꾀하는 일시적인 방편\n= 미봉책(彌縫策), 고육지책(苦肉之策), 임기응변(臨機應變)",
@@ -2347,7 +2321,7 @@
 	},
 	{
 		"id": "179",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "고육지계",
 		"chineseCharacters": "苦肉之計",
 		"description": "적을 속이기 위해 자신의 희생을 무릅쓰고 꾸미는 계책",
@@ -2373,7 +2347,7 @@
 	},
 	{
 		"id": "181",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "고장난명",
 		"chineseCharacters": "孤掌難鳴",
 		"description": "① 손바닥 하나로는 소리가 나지 않는다는 뜻으로 혼자 힘으로 일하기 어렵다는 말\n② 서로 같으니까 싸움이 난다는 말",
@@ -2425,7 +2399,7 @@
 	},
 	{
 		"id": "185",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "고진감래",
 		"chineseCharacters": "苦盡甘來",
 		"description": "괴로움이 다하면 즐거움이 온다 ↔ 흥진비래(興盡悲來)",
@@ -2541,7 +2515,7 @@
 	},
 	{
 		"id": "194",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "곡학아세",
 		"chineseCharacters": "曲學阿世",
 		"description": "① 자기가 배운 것을 올바로 펴볼 생각은 않고, 자기 배운 것을 굽혀 가면서 세상의 비위를 맞추어 출세하려는 그런 태도나 행동을 말함\n② 진리에 벗어난 학문을 닦아 세상 사람들에게 아부함",
@@ -2580,7 +2554,7 @@
 	},
 	{
 		"id": "197",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "골육상잔",
 		"chineseCharacters": "骨肉相殘",
 		"description": "같은 혈족끼리 서로 다투고 해하는 것\n= 골육상쟁(骨肉 相爭)",
@@ -2765,7 +2739,7 @@
 	},
 	{
 		"id": "211",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "공평무사",
 		"chineseCharacters": "公平無私",
 		"description": "공평하여 사사로움이 없음",
@@ -2893,7 +2867,7 @@
 	},
 	{
 		"id": "221",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "과유불급",
 		"chineseCharacters": "過猶不及",
 		"description": "정도를 지나침은 미치지 못한 것과 같음\n= 과여불급(過 如不及)",
@@ -2970,7 +2944,7 @@
 	},
 	{
 		"id": "227",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "관포지교",
 		"chineseCharacters": "管鮑之交",
 		"description": "옛날 중국의 관중(管仲)과 포숙(鮑叔)처럼 친구 사이의 우정이 깊음을 이르는 말\n= 문경지교(刎頸之交), 금란지교(金蘭之交), 백아절현(伯牙絶鉉), 지음(知音)",
@@ -2996,7 +2970,7 @@
 	},
 	{
 		"id": "229",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "괄목상대",
 		"chineseCharacters": "刮目相對",
 		"description": "눈을 비비고 자세히 본다는 뜻으로, 상대방의 학문이 부쩍 는 것을 칭찬하는 말",
@@ -3126,7 +3100,7 @@
 	},
 	{
 		"id": "239",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "교각살우",
 		"chineseCharacters": "矯角殺牛",
 		"description": "뿔을 고치려다 소를 죽인다, 작은 일에 힘쓰다 큰일을 망친다는 말",
@@ -3180,7 +3154,7 @@
 	},
 	{
 		"id": "243",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "교언영색",
 		"chineseCharacters": "巧言令色",
 		"description": "교묘한 말과 얼굴빛으로 남의 환심을 사려함",
@@ -3391,7 +3365,7 @@
 	},
 	{
 		"id": "259",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "구밀복검",
 		"chineseCharacters": "口蜜腹劍",
 		"description": "말은 정답게 하나 속으로는 해칠 생각이 있음\n= 안종복배(顔從腹背), 구유밀복유검(口有密復有劍)",
@@ -3430,7 +3404,7 @@
 	},
 	{
 		"id": "262",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "구상유취",
 		"chineseCharacters": "口尙乳臭",
 		"description": "아직 어리고 유치한 짓을 하는 사람",
@@ -3521,7 +3495,7 @@
 	},
 	{
 		"id": "269",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "구우일모",
 		"chineseCharacters": "九牛一毛",
 		"description": "많은 것 가운데서 극히 적은 것을 말함\n= 창해일속(滄海 一粟)",
@@ -3573,7 +3547,7 @@
 	},
 	{
 		"id": "273",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "구절양장",
 		"chineseCharacters": "九折羊腸",
 		"description": "① 양의 창자처럼 험하고 꼬불꼬불한 산길\n② 길이 매우 험함",
@@ -3703,7 +3677,7 @@
 	},
 	{
 		"id": "283",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "군계일학",
 		"chineseCharacters": "群鷄一鶴",
 		"description": "평범한 사람 가운데 아주 뛰어난 한 사람",
@@ -3756,7 +3730,7 @@
 	},
 	{
 		"id": "287",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "군신유의",
 		"chineseCharacters": "君臣有義",
 		"description": "임금과 신하 사이에는 의리가 있다.",
@@ -3769,7 +3743,7 @@
 	},
 	{
 		"id": "288",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "군웅할거",
 		"chineseCharacters": "群雄割據",
 		"description": "많은 영웅이 각지에 자리 잡고 서로 세력을 다툼",
@@ -3899,7 +3873,7 @@
 	},
 	{
 		"id": "298",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "궁여지책",
 		"chineseCharacters": "窮餘之策",
 		"description": "막다른 골목에서 그 국면을 타개하려고 생각다 못해 짜낸 꾀",
@@ -3938,7 +3912,7 @@
 	},
 	{
 		"id": "301",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "권모술수",
 		"chineseCharacters": "權謀術數",
 		"description": "목적 달성을 위해서는 인정이나 도덕을 가리지 않고 권세와 모략 중상 등 갖은 방법과 수단을 쓰는 술책",
@@ -3964,7 +3938,7 @@
 	},
 	{
 		"id": "303",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "권선징악",
 		"chineseCharacters": "勸善懲惡",
 		"description": "착한 행실을 권장하고 악한 행실을 징계함",
@@ -3977,7 +3951,7 @@
 	},
 	{
 		"id": "304",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "권토중래",
 		"chineseCharacters": "捲土重來",
 		"description": "① 한번 실패에 굴하지 않고 몇 번이고 다시 일어남\n② 세력을 되찾아 다시 쳐들어옴",
@@ -4095,7 +4069,7 @@
 	},
 	{
 		"id": "313",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "귤화위지",
 		"chineseCharacters": "橘和爲枳",
 		"description": "귤이 화수를 건너면 탱자가 된다(환경의 중요성)",
@@ -4160,7 +4134,7 @@
 	},
 	{
 		"id": "318",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "근묵자흑",
 		"chineseCharacters": "近墨者黑",
 		"description": "먹을 가까이하면 검어진다는 말로, 나쁜 친구와 사귀면 나빠지기 쉬움\n= 근주자적(近朱者赤)",
@@ -4185,7 +4159,7 @@
 	},
 	{
 		"id": "320",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금고일반",
 		"chineseCharacters": "今古一般",
 		"description": "지금이나 옛날이나 같다",
@@ -4211,7 +4185,7 @@
 	},
 	{
 		"id": "322",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금과옥조",
 		"chineseCharacters": "金科玉條",
 		"description": "금이나 옥같이 귀중한 법칙이나 규정",
@@ -4237,7 +4211,7 @@
 	},
 	{
 		"id": "324",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금란지계",
 		"chineseCharacters": "金蘭之契",
 		"description": "친구 사이의 우의가 두터움",
@@ -4263,7 +4237,7 @@
 	},
 	{
 		"id": "326",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금상첨화",
 		"chineseCharacters": "錦上添花",
 		"description": "좋고 아름다운 것 위에 더 좋은 것을 더함\n↔ 설상가상(雪上加霜)",
@@ -4289,7 +4263,7 @@
 	},
 	{
 		"id": "328",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금석맹약",
 		"chineseCharacters": "金石盟約",
 		"description": "쇠와 돌같이 굳게 맹세해 맺은 약속\n= 금석지교(金石之 交), 금석뇌약(金石牢約), 금석상약(金石相約), 금석지약(金石之約)",
@@ -4302,7 +4276,7 @@
 	},
 	{
 		"id": "329",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금석지감",
 		"chineseCharacters": "今昔之感",
 		"description": "지금을 옛적과 비교함에 변함이 심하여 저절로 일어나는 느낌",
@@ -4354,7 +4328,7 @@
 	},
 	{
 		"id": "333",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금슬지락",
 		"chineseCharacters": "琴瑟之樂",
 		"description": "부부 사이가 좋은 것\n= 금슬상화(琴瑟相和)",
@@ -4393,7 +4367,7 @@
 	},
 	{
 		"id": "336",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금오옥토",
 		"chineseCharacters": "金烏玉兎",
 		"description": "일월 금오는 태양, 옥토는 달을 가리키는 말",
@@ -4406,7 +4380,7 @@
 	},
 	{
 		"id": "337",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "금의야행",
 		"chineseCharacters": "錦衣夜行",
 		"description": "비단옷을 입고 밤에 다닌다, 성공은 했지만 아무런 효과를 내지 못하는 것",
@@ -4432,7 +4406,7 @@
 	},
 	{
 		"id": "339",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금의환향",
 		"chineseCharacters": "錦衣還鄕",
 		"description": "비단옷을 입고 고향으로 돌아옴 즉 타향에서 크게 성공하여 자기 집으로 돌아감",
@@ -4445,7 +4419,7 @@
 	},
 	{
 		"id": "340",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금지옥엽",
 		"chineseCharacters": "金枝玉葉",
 		"description": "임금의 자손이나 집안 또는 귀여운 자손을 소중히 일컫는 말",
@@ -4458,7 +4432,7 @@
 	},
 	{
 		"id": "341",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금석지감",
 		"chineseCharacters": "今昔之感",
 		"description": "지금과 옛것이 차가 크다고 느끼는 감회",
@@ -4497,7 +4471,7 @@
 	},
 	{
 		"id": "344",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금오옥토",
 		"chineseCharacters": "金烏玉兎",
 		"description": "해와 달",
@@ -4510,7 +4484,7 @@
 	},
 	{
 		"id": "345",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "금지옥엽",
 		"chineseCharacters": "金枝玉葉",
 		"description": "임금의 자녀나 자손의 소중히 여겨 일컫는 말(귀한 자손)\n= 애지중지(愛之重之)",
@@ -4561,7 +4535,7 @@
 	},
 	{
 		"id": "349",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "기고만장",
 		"chineseCharacters": "氣高萬丈",
 		"description": "기운이 굉장히 뻗치었다 일이 뜻대로 되어 씩씩한 기운이 대단하게 뻗침",
@@ -4652,7 +4626,7 @@
 	},
 	{
 		"id": "356",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "기상천외",
 		"chineseCharacters": "奇想天外",
 		"description": "보통 사람이 쉽게 짐작할 수 없을 정도로 엉뚱하고 기발한 생각",
@@ -4717,7 +4691,7 @@
 	},
 	{
 		"id": "361",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "기우",
 		"chineseCharacters": "杞憂",
 		"description": "쓸데없는 걱정",
@@ -4767,7 +4741,7 @@
 	},
 	{
 		"id": "365",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "기취여란",
 		"chineseCharacters": "其臭如蘭",
 		"description": "그 향기가 난초와 같음 절친한 친구 사이",
@@ -4793,7 +4767,7 @@
 	},
 	{
 		"id": "367",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "기호지세",
 		"chineseCharacters": "騎虎之勢",
 		"description": "범을 타고 달리는 사람이 도중에서 내릴 수 없는 것처럼 도중에서 그만두거나 물러설 수 없는 형세를 이르는 말",
@@ -4845,7 +4819,7 @@
 	},
 	{
 		"id": "371",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "낙담상혼",
 		"chineseCharacters": "落膽喪魂",
 		"description": "몹시 놀라 정신이 없음",
@@ -4921,7 +4895,7 @@
 	},
 	{
 		"id": "377",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "낙정하석",
 		"chineseCharacters": "落穽下石",
 		"description": "우물에 빠진 자에게 돌을 던진다. 남의 환난(患亂)에 다시 위해(危害)를 준다는 말",
@@ -5027,7 +5001,7 @@
 	},
 	{
 		"id": "385",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "난상공론",
 		"chineseCharacters": "爛商公論",
 		"description": "여러 사람이 잘 의논함",
@@ -5056,7 +5030,7 @@
 	},
 	{
 		"id": "387",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "난상토의",
 		"chineseCharacters": "爛商討議",
 		"description": "낱낱이 들어 잘 토의함",
@@ -5121,7 +5095,7 @@
 	},
 	{
 		"id": "392",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "난형난제",
 		"chineseCharacters": "難兄難弟",
 		"description": "어느 것이 낫고 어느 것이 못하다고 할 수 없음\n= 막상막하(莫上莫下), 백중지세(伯仲之勢)",
@@ -5160,7 +5134,7 @@
 	},
 	{
 		"id": "395",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "남가일몽",
 		"chineseCharacters": "南柯一夢",
 		"description": "꿈과 같이 헛된 한때의 헛된 부귀영화\n= 일장춘몽(一場春夢), 한단지몽(邯鄲之夢), 일취지몽( 一炊之夢), 황량지몽( 黃梁之夢)",
@@ -5173,7 +5147,7 @@
 	},
 	{
 		"id": "396",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "남귤북지",
 		"chineseCharacters": "南橘北枳",
 		"description": "강남에 심은 귤을 강북에 심으면 탱자가 된다 기후와 풍토가 다르면 모양과 성질이 달라진다는 뜻(환경의 중요성)",
@@ -5199,7 +5173,7 @@
 	},
 	{
 		"id": "398",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "남부여대",
 		"chineseCharacters": "男負女戴",
 		"description": "남자는 지고 여자는 인다. 가난에 시달린 사람들이 살 곳을 찾아 떠돌아다니며 사는 것을 말함(평범한 사람)",
@@ -5223,7 +5197,7 @@
 	},
 	{
 		"id": "400",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "남선북마",
 		"chineseCharacters": "南船北馬",
 		"description": "바쁘게 여기저기를 돌아다님. 중국의 교통상태가 남쪽은 강이 많아 배를 쓰고, 북쪽은 지형과 기후 관계로 말이나 차를 많이 쓰는 데서 온 말\n= 남행북주(南行北走)",
@@ -5278,7 +5252,7 @@
 	},
 	{
 		"id": "404",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "낭중지추",
 		"chineseCharacters": "囊中之錐",
 		"description": "주머니 속에 든 송곳 재주가 뛰어난 사람은 숨어 있어도 저절로 사람들이 알게 됨",
@@ -5291,7 +5265,7 @@
 	},
 	{
 		"id": "405",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "낭중취물",
 		"chineseCharacters": "囊中取物",
 		"description": "주머니 속의 물건을 꺼내는 일 매우 쉬운 일 → 식은 죽 먹기",
@@ -5343,7 +5317,7 @@
 	},
 	{
 		"id": "409",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "내우외환",
 		"chineseCharacters": "內憂外患",
 		"description": "나라 안팎의 근심 걱정",
@@ -5356,7 +5330,7 @@
 	},
 	{
 		"id": "410",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "내유외강",
 		"chineseCharacters": "內柔外剛",
 		"description": "사실은 마음이 약한데도, 외부에는 강하게 나타남",
@@ -5512,7 +5486,7 @@
 	},
 	{
 		"id": "422",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "노생지몽",
 		"chineseCharacters": "盧生之夢",
 		"description": "한때의 헛된 부귀영화",
@@ -5538,7 +5512,7 @@
 	},
 	{
 		"id": "424",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "노심초사",
 		"chineseCharacters": "勞心焦思",
 		"description": "몹시 마음을 졸이는 것",
@@ -5694,7 +5668,7 @@
 	},
 	{
 		"id": "436",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "녹의홍상",
 		"chineseCharacters": "綠衣紅裳",
 		"description": "연두저고리에 다홍치마 곱게 차려입은 젊은 아가씨의 복색",
@@ -5720,7 +5694,7 @@
 	},
 	{
 		"id": "438",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "논공행상",
 		"chineseCharacters": "論功行賞",
 		"description": "세운 공을 논하여 상을 줌",
@@ -5783,7 +5757,7 @@
 	},
 	{
 		"id": "443",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "농와지경",
 		"chineseCharacters": "弄瓦之慶",
 		"description": "딸을 낳은 기쁨\n= 농아지희(聾兒之喜)",
@@ -5796,7 +5770,7 @@
 	},
 	{
 		"id": "444",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "농장지경",
 		"chineseCharacters": "弄璋之慶",
 		"description": "아들을 낳은 기쁨\n= 농장지희(弄璋之喜)",
@@ -5809,7 +5783,7 @@
 	},
 	{
 		"id": "445",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "농조연운",
 		"chineseCharacters": "籠鳥戀雲",
 		"description": "속박을 당한 몸이 자유를 그리워하는 마음",
@@ -5874,7 +5848,7 @@
 	},
 	{
 		"id": "450",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "누란지위",
 		"chineseCharacters": "累卵之危",
 		"description": "달걀을 쌓아 놓은 것과 같이 매우 위태함\n= 累卵之勢(누란지세), 풍전등화(風前燈火), 일촉즉발(一觸卽發)",
@@ -5992,7 +5966,7 @@
 	},
 	{
 		"id": "459",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "다기망양",
 		"chineseCharacters": "多岐亡羊",
 		"description": "길이 여러 갈래여서 양을 잃다, 학문에는 길이 많아 진리를 찾기 어려우므로 목적을 망각하고 지엽적인 일에 매달리지 말라는 뜻",
@@ -6005,7 +5979,7 @@
 	},
 	{
 		"id": "460",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "다다익선",
 		"chineseCharacters": "多多益善",
 		"description": "많으면 많을수록 좋음",
@@ -6034,7 +6008,7 @@
 	},
 	{
 		"id": "462",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "다문박식",
 		"chineseCharacters": "多聞博識",
 		"description": "견문이 넓고 학식이 많음",
@@ -6099,7 +6073,7 @@
 	},
 	{
 		"id": "467",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "단금지교",
 		"chineseCharacters": "斷金之交",
 		"description": "쇠를 자를 정도로 절친한 친구 사이를 말함\n= 기리단금(其利斷金)",
@@ -6112,7 +6086,7 @@
 	},
 	{
 		"id": "468",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "단기지교",
 		"chineseCharacters": "斷機之敎",
 		"description": "학문을 중도에 그만둠은 짜던 베를 끊는 것이라는 맹자 어머니의 교훈\n= 단지지계(斷機之誡)",
@@ -6150,7 +6124,7 @@
 	},
 	{
 		"id": "471",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "단사표음",
 		"chineseCharacters": "簞食瓢飮",
 		"description": "도시락밥과 표주박 물 변변치 못한 살림을 가리키는 뜻으로 청빈한 생활을 말함\n= 단표누항(簞瓢陋巷), 단식두갱(簞食豆羹)",
@@ -6176,7 +6150,7 @@
 	},
 	{
 		"id": "473",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "단순호치",
 		"chineseCharacters": "丹脣皓齒",
 		"description": "붉은 입술과 하얀 이란 뜻에서 여자의 아름다운 얼굴을 이르는 말\n= 주안옥치(朱顔玉齒), 명모호치(明眸皓齒), 화용월태(花容月態)",
@@ -6295,7 +6269,7 @@
 	},
 	{
 		"id": "482",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "당구풍월",
 		"chineseCharacters": "堂狗風月",
 		"description": "사당 개 삼 년에 풍월을 읊는다, 무식한 자도 유식한 자와 같이 있으면 다소 유식해진다는 뜻",
@@ -6321,7 +6295,7 @@
 	},
 	{
 		"id": "484",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "당랑거철",
 		"chineseCharacters": "螳螂拒轍",
 		"description": "사마귀가 수레바퀴에 맞섬 제 분수도 모르고 강적에게 반항함",
@@ -6440,7 +6414,7 @@
 	},
 	{
 		"id": "493",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "대기만성",
 		"chineseCharacters": "大器晩成",
 		"description": "크게 될 인물은 늦게 이루어진다",
@@ -6505,7 +6479,7 @@
 	},
 	{
 		"id": "498",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "대언장어",
 		"chineseCharacters": "大言壯語",
 		"description": "제 주제에 당치 아니한 말을 희떱게 지껄이거나 그러한 말",
@@ -6531,7 +6505,7 @@
 	},
 	{
 		"id": "500",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "대의명분",
 		"chineseCharacters": "大義名分",
 		"description": "인류의 큰 의를 밝히고 분수를 지켜 정도에 어긋나지 않도록 하는 것",
@@ -6661,7 +6635,7 @@
 	},
 	{
 		"id": "510",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "도로무익",
 		"chineseCharacters": "徒勞無益",
 		"description": "애만 쓰고 이로움이 없음\n= 도로무공(徒勞無功), 노이무공(勞而無功)",
@@ -6780,7 +6754,7 @@
 	},
 	{
 		"id": "519",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "도청도설",
 		"chineseCharacters": "道聽塗說",
 		"description": "① 거리에서 들은 것을 남에게 아는 체하며 말함\n②깊이 생각 않고 예사로 듣고 말함",
@@ -6793,7 +6767,7 @@
 	},
 	{
 		"id": "520",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "도탄지고",
 		"chineseCharacters": "塗炭之苦",
 		"description": "진구렁이나 숯불에 빠짐, 백성들이 몹시 고생스러움을 말함",
@@ -6961,7 +6935,7 @@
 	},
 	{
 		"id": "533",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "동가식서가숙",
 		"chineseCharacters": "東家食西家宿",
 		"description": "먹을 곳 잘 곳이 없이 떠도는 사람 또는 그런 짓",
@@ -6976,7 +6950,7 @@
 	},
 	{
 		"id": "534",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "동가홍상",
 		"chineseCharacters": "同價紅裳",
 		"description": "같은 값이면 다홍치마",
@@ -6989,7 +6963,7 @@
 	},
 	{
 		"id": "535",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "동고동락",
 		"chineseCharacters": "同苦同樂",
 		"description": "괴로움과 즐거움을 함께함",
@@ -7068,7 +7042,7 @@
 	},
 	{
 		"id": "542",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "동량지재",
 		"chineseCharacters": "棟樑之材",
 		"description": "기둥이나 들보가 될 만한 훌륭한 인재 한 집이나 한나라의 큰일을 맡을 만한 사람",
@@ -7081,7 +7055,7 @@
 	},
 	{
 		"id": "543",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "동문서답",
 		"chineseCharacters": "東問西答",
 		"description": "묻는 말에 대하여 전혀 엉뚱한 대답을 하는 것",
@@ -7107,7 +7081,7 @@
 	},
 	{
 		"id": "545",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "동병상련",
 		"chineseCharacters": "同病相燐",
 		"description": "같은 처지에 있는 사람끼리 서로 동정함",
@@ -7120,7 +7094,7 @@
 	},
 	{
 		"id": "546",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "동분서주",
 		"chineseCharacters": "東奔西走",
 		"description": "사방으로 바쁘게 돌아다님",
@@ -7159,7 +7133,7 @@
 	},
 	{
 		"id": "549",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "동상이몽",
 		"chineseCharacters": "同床異夢",
 		"description": "같은 잠자리에서 다른 꿈을 꿈 곧 겉으로는 같이 행동하면서 속으로는 딴생각을 가짐",
@@ -7211,7 +7185,7 @@
 	},
 	{
 		"id": "553",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "동심지언",
 		"chineseCharacters": "同心之言",
 		"description": "같은 마음에서 나온 말 절친한 친구 사이",
@@ -7302,7 +7276,7 @@
 	},
 	{
 		"id": "560",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "두문불출",
 		"chineseCharacters": "杜門不出",
 		"description": "세상과 인연을 끊고 출입을 하지 않음",
@@ -7339,7 +7313,7 @@
 	},
 	{
 		"id": "563",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "득롱망촉",
 		"chineseCharacters": "得朧望蜀",
 		"description": "중국 한나라 때 광무제가 농을 정복한 뒤 촉을 쳤다는데서 나온 말, 끝없는 욕심",
@@ -7378,7 +7352,7 @@
 	},
 	{
 		"id": "566",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "득의만면",
 		"chineseCharacters": "得意滿面",
 		"description": "뜻한 바를 이루어 기쁜 표정이 얼굴에 가득함",
@@ -7404,7 +7378,7 @@
 	},
 	{
 		"id": "568",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "등고자비",
 		"chineseCharacters": "登高自卑",
 		"description": "① 높은 곳에 이르기 위해서는 낮은 곳부터 밟아야 한다, 일을 하는 데는 반드시 차례를 밟아야 한다는 말\n② 지위가 높아질수록 스스로를 낮춘다는 말",
@@ -7444,7 +7418,7 @@
 	},
 	{
 		"id": "571",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "득롱망촉",
 		"chineseCharacters": "得隴望蜀",
 		"description": "욕심이 한없음을 말함",
@@ -7482,7 +7456,7 @@
 	},
 	{
 		"id": "574",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "등하불명",
 		"chineseCharacters": "燈下不明",
 		"description": "등잔 밑이 어둡다. 가까이 있는 것이 오히려 알아내기가 어려움",
@@ -7495,7 +7469,7 @@
 	},
 	{
 		"id": "575",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "등화가친",
 		"chineseCharacters": "燈火可親",
 		"description": "가을이 되어 서늘하면 밤에 불을 가까이하여 글 읽기에 좋다는 말",
@@ -7547,7 +7521,7 @@
 	},
 	{
 		"id": "579",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "마부위침",
 		"chineseCharacters": "磨斧爲針",
 		"description": "아무리 이루기 힘든 일도 끊임없는 노력과 끈기있는 인내로 성공하고야 만다는 뜻",
@@ -7560,7 +7534,7 @@
 	},
 	{
 		"id": "580",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "마이동풍",
 		"chineseCharacters": "馬耳東風",
 		"description": "쇠귀에 마파람, 남의 말을 귀담아듣지 아니하고 지나쳐 흘려 버림\n= 우이송경(牛耳誦經), 우이독경(牛耳讀經)",
@@ -7599,7 +7573,7 @@
 	},
 	{
 		"id": "583",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "마행처우역거",
 		"chineseCharacters": "馬行處牛亦去",
 		"description": "다른 사람이 할 수 있는 일이라면 어떤 사람이라도 노력하면 할 수 있다",
@@ -7679,7 +7653,7 @@
 	},
 	{
 		"id": "589",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "막상막하",
 		"chineseCharacters": "莫上莫下",
 		"description": "실력에 있어, 낫고 못함이 없이 비슷함",
@@ -7692,7 +7666,7 @@
 	},
 	{
 		"id": "590",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "막역지우",
 		"chineseCharacters": "莫逆之友",
 		"description": "참된 마음으로 서로 거역할 수 없이 매우 친한 벗을 말함 \n= 막역지간(莫逆之間), 죽마고우(竹馬故友)",
@@ -7718,7 +7692,7 @@
 	},
 	{
 		"id": "592",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "만경창파",
 		"chineseCharacters": "萬頃蒼波",
 		"description": "만 갈래의 푸른 물결 한없이 넓고 푸른 바다",
@@ -7757,7 +7731,7 @@
 	},
 	{
 		"id": "595",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "만고풍상",
 		"chineseCharacters": "萬古風霜",
 		"description": "사는 동안에 겪은 많은 고생",
@@ -7864,7 +7838,7 @@
 	},
 	{
 		"id": "603",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "만사휴의",
 		"chineseCharacters": "萬事休矣",
 		"description": "모든 방법이 헛되게 됨",
@@ -7903,7 +7877,7 @@
 	},
 	{
 		"id": "606",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "만시지탄",
 		"chineseCharacters": "晩時之嘆",
 		"description": "기회를 잃은 한탄",
@@ -7942,7 +7916,7 @@
 	},
 	{
 		"id": "609",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "만시지탄",
 		"chineseCharacters": "晩時之嘆",
 		"description": "시기가 늦었음을 안타까워하는 탄식",
@@ -8009,7 +7983,7 @@
 	},
 	{
 		"id": "614",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "만학천봉",
 		"chineseCharacters": "萬壑千峯",
 		"description": "첩첩이 겹쳐진 수많은 골짜기와 수많은 봉우리",
@@ -8151,7 +8125,7 @@
 	},
 	{
 		"id": "625",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "망양보뢰",
 		"chineseCharacters": "亡羊補牢",
 		"description": "양을 잃고 우리를 고친다는 뜻 이미 실패한 다음에 뒤에 뉘우쳐도 소용없다는 말 → 소 잃고 외양간 고친다",
@@ -8164,7 +8138,7 @@
 	},
 	{
 		"id": "626",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "망양지탄",
 		"chineseCharacters": "望洋之嘆",
 		"description": "넓은 바다를 보고 감탄한다는 뜻 곧, 남의 위대함에 감탄하고, 나의 미흡함을 부끄러워함의 비유, 제힘이 미치지 못할 때 하는 탄식",
@@ -8177,7 +8151,7 @@
 	},
 	{
 		"id": "627",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "망양지탄",
 		"chineseCharacters": "亡羊之歎",
 		"description": "잃은 양을 여러 갈래의 길에서 찾지 못하듯, 학문의 길이 여러 갈래여서 못 미침을 탄식\n= 다기망양(多岐亡羊)",
@@ -8203,7 +8177,7 @@
 	},
 	{
 		"id": "629",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "망운지정",
 		"chineseCharacters": "望雲之情",
 		"description": "자식이 타향에서 부모를 그리는 정 \n= 망운지회(望雲之 懷)",
@@ -8229,7 +8203,7 @@
 	},
 	{
 		"id": "631",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "망자계치",
 		"chineseCharacters": "亡子計齒",
 		"description": "죽은 자식 나이 세기 곧 이미 지나간 쓸데없는 일을 생각하며 애석히 여긴다는 뜻",
@@ -8254,7 +8228,7 @@
 	},
 	{
 		"id": "633",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "망지소조",
 		"chineseCharacters": "罔知所措",
 		"description": "어찌할 바를 모르고 허둥지둥함",
@@ -8280,7 +8254,7 @@
 	},
 	{
 		"id": "635",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "맥수지탄",
 		"chineseCharacters": "麥秀之嘆",
 		"description": "나라를 잃음에 대한 탄식 \n= 망국지탄(亡國之歎)",
@@ -8345,7 +8319,7 @@
 	},
 	{
 		"id": "640",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "면종복배",
 		"chineseCharacters": "面從腹背",
 		"description": "앞에서는 순종하는 체하고 속으로는 딴마음을 먹음 \n=구밀복검(口蜜腹劍)",
@@ -8371,7 +8345,7 @@
 	},
 	{
 		"id": "642",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "멸사봉공",
 		"chineseCharacters": "滅私奉公",
 		"description": "사사로움을 버리고 공공을 위하여 힘써 일함",
@@ -8384,7 +8358,7 @@
 	},
 	{
 		"id": "643",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "명경지수",
 		"chineseCharacters": "明鏡止水",
 		"description": "티끌 한 점 없는 밝은 거울이라는 데서 사념이 없는 아주 깨끗한 마음을 뜻함",
@@ -8449,7 +8423,7 @@
 	},
 	{
 		"id": "648",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "명약관화",
 		"chineseCharacters": "明若觀火",
 		"description": "밝기가 불을 보는 것과 같음 \n= 불문가지(不問可知)",
@@ -8488,7 +8462,7 @@
 	},
 	{
 		"id": "651",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "명실상부",
 		"chineseCharacters": "名實相符",
 		"description": "이름과 실상이 서로 들어맞음",
@@ -8501,7 +8475,7 @@
 	},
 	{
 		"id": "652",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "명심불망",
 		"chineseCharacters": "銘心不忘",
 		"description": "마음에 새기어 잊지 않음",
@@ -8514,7 +8488,7 @@
 	},
 	{
 		"id": "653",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "명약관화",
 		"chineseCharacters": "明若觀火",
 		"description": "불을 보는 듯이 환하게 분명히 알 수 있음",
@@ -8541,7 +8515,7 @@
 	},
 	{
 		"id": "655",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "명재경각",
 		"chineseCharacters": "命在頃刻",
 		"description": "거의 죽게 되어서 목숨이 곧 넘어갈 지경에 이름",
@@ -8636,7 +8610,7 @@
 	},
 	{
 		"id": "662",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "모순",
 		"chineseCharacters": "矛盾",
 		"description": "말이나 행동의 앞뒤가 서로 맞지 않음 \n= 모순지설(矛盾 之說)",
@@ -8696,7 +8670,7 @@
 	},
 	{
 		"id": "666",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "목불식정",
 		"chineseCharacters": "目不識丁",
 		"description": "낫 놓고 기역 자도 모를 만큼 아주 무식함",
@@ -8709,7 +8683,7 @@
 	},
 	{
 		"id": "667",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "목불인견",
 		"chineseCharacters": "目不忍見",
 		"description": "차마 눈 뜨고 볼 수 없는 참상이나 꼴불견",
@@ -8811,7 +8785,7 @@
 	},
 	{
 		"id": "675",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "묘두현령",
 		"chineseCharacters": "猫頭縣鈴",
 		"description": "고양이 목에 방울 달기라는 뜻으로 실행할 수 없는헛 이론을 일컬음 \n= 묘항현령(猫項懸鈴)",
@@ -8918,7 +8892,7 @@
 	},
 	{
 		"id": "683",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무릉도원",
 		"chineseCharacters": "武陵桃源",
 		"description": "신선이 살았다는 전설적인 중국의 명승지를 일컫는 말로 곧 속세를 떠난 별천지",
@@ -8971,7 +8945,7 @@
 	},
 	{
 		"id": "687",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무불간섭",
 		"chineseCharacters": "無不干涉",
 		"description": "함부로 남의 일에 간섭함",
@@ -8984,7 +8958,7 @@
 	},
 	{
 		"id": "688",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무불통지",
 		"chineseCharacters": "無不通知",
 		"description": "무슨 일이든 모르는 것이 없음 무소부지(無所不知)",
@@ -9023,7 +8997,7 @@
 	},
 	{
 		"id": "691",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무소부지",
 		"chineseCharacters": "無所不知",
 		"description": "무엇이든지 모르는 것이 없음",
@@ -9036,7 +9010,7 @@
 	},
 	{
 		"id": "692",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무소불위",
 		"chineseCharacters": "無所不爲",
 		"description": "못할 것이 없음",
@@ -9150,7 +9124,7 @@
 	},
 	{
 		"id": "701",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "무위도식",
 		"chineseCharacters": "無爲徒食",
 		"description": "아무 하는 일 없이 먹기만 함",
@@ -9176,7 +9150,7 @@
 	},
 	{
 		"id": "703",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "무의무탁",
 		"chineseCharacters": "無依無托",
 		"description": "의지하고 의탁할 곳이 없음",
@@ -9355,7 +9329,7 @@
 	},
 	{
 		"id": "716",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "묵수",
 		"chineseCharacters": "墨守",
 		"description": "묵자가 끝까지 성을 지킨다는 말로 자기의 의견 또는 소신을 굽힘이 없이 끝까지 지키는 것 \n= 묵적지수(墨翟之守)",
@@ -9366,7 +9340,7 @@
 	},
 	{
 		"id": "717",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "문경지교",
 		"chineseCharacters": "刎頸之交",
 		"description": "목이 잘리는 한이 있어도 마음을 변치 않고 사귀는 친한 사이",
@@ -9392,7 +9366,7 @@
 	},
 	{
 		"id": "719",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "문방사우",
 		"chineseCharacters": "文房四友",
 		"description": "서재에 꼭 있어야 할 네 벗, 즉 종이, 붓, 벼루, 먹을 말함",
@@ -9458,7 +9432,7 @@
 	},
 	{
 		"id": "724",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "문전성시",
 		"chineseCharacters": "門前成市",
 		"description": "권세가 크거나 부자가 되어 집 문 앞이 찾아오는 손님들로 마치 시장을 이룬 것 같음 \n= 문정약시(門庭若市)",
@@ -9471,7 +9445,7 @@
 	},
 	{
 		"id": "725",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "문전옥답",
 		"chineseCharacters": "門前沃畓",
 		"description": "집 앞 가까이에 있는 좋은 논, 곧 많은 재산을 일컫는 말",
@@ -9565,7 +9539,7 @@
 	},
 	{
 		"id": "732",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "물심일여",
 		"chineseCharacters": "物心一如",
 		"description": "마음과 형체가 구분됨이 없이 하나로 일치한 상태",
@@ -9591,7 +9565,7 @@
 	},
 	{
 		"id": "734",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "물외한인",
 		"chineseCharacters": "物外閒人",
 		"description": "세상의 시끄러움에서 벗어나 한가하게 지내는 사람",
@@ -9670,7 +9644,7 @@
 	},
 	{
 		"id": "740",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "미생지신",
 		"chineseCharacters": "尾生之信",
 		"description": "융통성이 없이 약속만을 굳게 지킴, 또는 신의가 굳음 비유",
@@ -9696,7 +9670,7 @@
 	},
 	{
 		"id": "742",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "미연지전",
 		"chineseCharacters": "未然之前",
 		"description": "아직 그렇게 되지 아니함",
@@ -9709,7 +9683,7 @@
 	},
 	{
 		"id": "743",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "미인박명",
 		"chineseCharacters": "美人薄命",
 		"description": "미인은 흔히 불행하거나 병약하여 요절하는 일이 많다는 말",
@@ -9826,7 +9800,7 @@
 	},
 	{
 		"id": "752",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "박이부정",
 		"chineseCharacters": "博而不精",
 		"description": "넓게 알고 있으나 자세하지 못함",
@@ -9839,7 +9813,7 @@
 	},
 	{
 		"id": "753",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "박장대소",
 		"chineseCharacters": "拍掌大笑",
 		"description": "손바닥을 치면서 크게 웃음",
@@ -9879,7 +9853,7 @@
 	},
 	{
 		"id": "756",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "반계곡경",
 		"chineseCharacters": "盤溪曲徑",
 		"description": "정당하고 평탄한 방법으로 하지 아니하고 그릇되고 억지스럽게 함을 이르는 말",
@@ -9905,7 +9879,7 @@
 	},
 	{
 		"id": "758",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "반목질시",
 		"chineseCharacters": "反目嫉視",
 		"description": "눈을 흘기면서 밉게 봄 서로 미워하며 시기함",
@@ -9995,7 +9969,7 @@
 	},
 	{
 		"id": "765",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "반신반의",
 		"chineseCharacters": "半信半疑",
 		"description": "참과 거짓을 판단하기 어려워 얼마쯤 믿으면서도 한편으로는 의심함",
@@ -10047,7 +10021,7 @@
 	},
 	{
 		"id": "769",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "반포지효",
 		"chineseCharacters": "反哺之孝",
 		"description": "자식이 자라서 부모를 봉양함",
@@ -10060,7 +10034,7 @@
 	},
 	{
 		"id": "770",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "발본색원",
 		"chineseCharacters": "拔本塞源",
 		"description": "폐단의 근원을 찾아서 아주 뽑아 없애 버린다는 뜻",
@@ -10073,7 +10047,7 @@
 	},
 	{
 		"id": "771",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "발산개세",
 		"chineseCharacters": "拔山蓋世",
 		"description": "영웅의 힘이 세고 기상이 크다는 뜻\n=역발산기개세(力拔山氣蓋世)",
@@ -10086,7 +10060,7 @@
 	},
 	{
 		"id": "772",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "발췌초록",
 		"chineseCharacters": "拔萃抄錄",
 		"description": "여럿 가운데 뛰어난 것을 뽑아 간단히 적어 둔 것",
@@ -10112,7 +10086,7 @@
 	},
 	{
 		"id": "774",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "방약무인",
 		"chineseCharacters": "傍若無人",
 		"description": "무엇을 하거나 말을 할 때 조금도 거리낌 없고 조심성 없게 한다",
@@ -10190,7 +10164,7 @@
 	},
 	{
 		"id": "780",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "배수지진",
 		"chineseCharacters": "背水之陣",
 		"description": "필승을 기하여 목숨을 걸고 싸움",
@@ -10203,7 +10177,7 @@
 	},
 	{
 		"id": "781",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "배은망덕",
 		"chineseCharacters": "背恩忘德",
 		"description": "은혜를 잊고 도리어 배반함",
@@ -10229,7 +10203,7 @@
 	},
 	{
 		"id": "783",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "백가쟁명",
 		"chineseCharacters": "百家爭鳴",
 		"description": "여러 사람이 서로 자기의 주장을 내세우는 일",
@@ -10255,7 +10229,7 @@
 	},
 	{
 		"id": "785",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "백골난망",
 		"chineseCharacters": "白骨難忘",
 		"description": "죽어도 잊지 못할 큰 은혜를 입음",
@@ -10323,7 +10297,7 @@
 	},
 	{
 		"id": "790",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백년대계",
 		"chineseCharacters": "百年大計",
 		"description": "먼 뒷날까지 걸친 원대한 계획",
@@ -10336,7 +10310,7 @@
 	},
 	{
 		"id": "791",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백년하청",
 		"chineseCharacters": "百年河淸",
 		"description": "국의 황하가 언제나 흐리어 맑을 때가 없다는 말로, 이루어지지 않을 일을 오래 두고 기다림",
@@ -10349,7 +10323,7 @@
 	},
 	{
 		"id": "792",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "백년해로",
 		"chineseCharacters": "百年偕老",
 		"description": "부부가 화합하여 함께 늙도록 살아감",
@@ -10393,7 +10367,7 @@
 	},
 	{
 		"id": "795",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "백락일고",
 		"chineseCharacters": "伯樂一顧",
 		"description": "남이 자기 재능을 알고 잘 대우함",
@@ -10406,7 +10380,7 @@
 	},
 	{
 		"id": "796",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백면서생",
 		"chineseCharacters": "白面書生",
 		"description": "글만 읽고 세상일에 어두운 사람",
@@ -10435,7 +10409,7 @@
 	},
 	{
 		"id": "798",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "백미",
 		"chineseCharacters": "白眉",
 		"description": "흰 눈썹 마씨 오형제가 다 뛰어났으나, 흰 눈썹을 가진 마량이 가장 뛰어났다는 데서, 여럿 가운데 가장 뛰어난 사람을 상징함\n= 출중(出衆), 압권(壓卷)",
@@ -10640,7 +10614,7 @@
 	},
 	{
 		"id": "814",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백절불굴",
 		"chineseCharacters": "百折不屈",
 		"description": "아무리 꺾으려고 해도 굽히지 않음 \n= 百折不撓(백절불요)",
@@ -10705,7 +10679,7 @@
 	},
 	{
 		"id": "819",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백중지간",
 		"chineseCharacters": "伯仲之間",
 		"description": "둘의 우열에 차이가 없이 어금 버금 맞서는 사이\n= 난형난제(難兄難弟)",
@@ -10731,7 +10705,7 @@
 	},
 	{
 		"id": "821",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "백척간두",
 		"chineseCharacters": "百尺竿頭",
 		"description": "① 위태롭고 어려운 지경에 이름 \n② 그 분야에 가장 뛰어난 사람",
@@ -10760,7 +10734,7 @@
 	},
 	{
 		"id": "823",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "백팔번뇌",
 		"chineseCharacters": "百八煩惱",
 		"description": "불교 용어로 인간이 과거, 현재, 미래에 걸친 108가지의 번뇌를 말함",
@@ -11187,7 +11161,7 @@
 	},
 	{
 		"id": "856",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "부부유별",
 		"chineseCharacters": "夫婦有別",
 		"description": "남편과 아내 사이에는 서로 일정한 침범하지 못할 구별이 있음",
@@ -11280,7 +11254,7 @@
 	},
 	{
 		"id": "863",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "부위부강",
 		"chineseCharacters": "夫爲婦綱",
 		"description": "아내는 남편을 섬기는 것이 근본이다",
@@ -11293,7 +11267,7 @@
 	},
 	{
 		"id": "864",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "부위자강",
 		"chineseCharacters": "父爲子綱",
 		"description": "아들은 아버지를 섬기는 것이 근본이다",
@@ -11385,7 +11359,7 @@
 	},
 	{
 		"id": "871",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "부창부수",
 		"chineseCharacters": "夫唱婦隋",
 		"description": "남편이 창을 하면 아내도 따라 하는 것 부부 화합의 도리",
@@ -11411,7 +11385,7 @@
 	},
 	{
 		"id": "873",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "부화뇌동",
 		"chineseCharacters": "附和雷同",
 		"description": "제 주견이 없이 남이 하는 대로 그저 무턱대고 따라 함",
@@ -11502,7 +11476,7 @@
 	},
 	{
 		"id": "880",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "분골쇄신",
 		"chineseCharacters": "粉骨碎身",
 		"description": "뼈는 가루가 되고 몸은 산산조각이 됨 목숨을 걸고 최선을 다함",
@@ -11715,7 +11689,7 @@
 	},
 	{
 		"id": "896",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불립문자",
 		"chineseCharacters": "不立文字",
 		"description": "○불 불도의 깨달음은 이심전심으로 전하는 것이므로, 따로 언어나 문자로써 나타낼 수 없다는 뜻 마음에서 마음으로 전함\n= 이심전심(以心傳心), 교외별전(敎外別傳), 심심상인(心心相印), 염화미소(拈華微笑)",
@@ -11741,7 +11715,7 @@
 	},
 	{
 		"id": "898",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불면불휴",
 		"chineseCharacters": "不眠不休",
 		"description": "자지도 않고 쉬지도 않는다는 뜻 조금도 쉬지 않고 애써 일함",
@@ -11767,7 +11741,7 @@
 	},
 	{
 		"id": "900",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불문가지",
 		"chineseCharacters": "不問可知",
 		"description": "묻지 않아도 알 수 있음",
@@ -11780,7 +11754,7 @@
 	},
 	{
 		"id": "901",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "불문곡직",
 		"chineseCharacters": "不問曲直",
 		"description": "옳고 그름을 가리지 않고 함부로 일을 처리함",
@@ -11793,7 +11767,7 @@
 	},
 	{
 		"id": "902",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불벌부덕",
 		"chineseCharacters": "不伐不德",
 		"description": "자기의 공적을 뽐내지 않음",
@@ -11936,7 +11910,7 @@
 	},
 	{
 		"id": "913",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불요불굴",
 		"chineseCharacters": "不撓不屈",
 		"description": "한번 결심한 마음이 흔들거리거나 굽힘이 없이 억셈",
@@ -11979,7 +11953,7 @@
 	},
 	{
 		"id": "916",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불철주야",
 		"chineseCharacters": "不撤晝夜",
 		"description": "밤낮을 가리지 않음",
@@ -12003,7 +11977,7 @@
 	},
 	{
 		"id": "918",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "불초지부",
 		"chineseCharacters": "不肖之父",
 		"description": "어리석은 아버지",
@@ -12051,7 +12025,7 @@
 	},
 	{
 		"id": "921",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "불치하문",
 		"chineseCharacters": "不恥下問",
 		"description": "아래 사람에게 배우는 것을 부끄럽게 여기지 않음",
@@ -12141,7 +12115,7 @@
 	},
 	{
 		"id": "928",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "붕우유신",
 		"chineseCharacters": "朋友有信",
 		"description": "벗과 벗은 믿음이 있어야 한다",
@@ -12168,7 +12142,7 @@
 	},
 	{
 		"id": "930",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "붕정만리",
 		"chineseCharacters": "鵬程萬里",
 		"description": "붕새가 날아가는 하늘길이 만 리로 트임 곧 전도가 지극히 양양한 장래 원대한 사업이나 계획을 비유함",
@@ -12207,7 +12181,7 @@
 	},
 	{
 		"id": "933",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "비분강개",
 		"chineseCharacters": "悲憤慷慨",
 		"description": "슬프고 분한 느낌이 마음속에 가득 차 있음",
@@ -12285,7 +12259,7 @@
 	},
 	{
 		"id": "939",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "비일비재",
 		"chineseCharacters": "非一非再",
 		"description": "한둘이 아님 (수두룩함)",
@@ -12442,7 +12416,7 @@
 	},
 	{
 		"id": "951",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "빙탄지간",
 		"chineseCharacters": "氷炭之間",
 		"description": "얼음과 숯의 차이 정도로 둘이 서로 어긋나 맞지 않는 사이 \n= 불구대천(不俱戴天), 빙탄불상용(氷炭不相容)",
@@ -12479,7 +12453,7 @@
 	},
 	{
 		"id": "954",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "사고무친",
 		"chineseCharacters": "四顧無親",
 		"description": "친척이 없어 의지할 곳 없이 외로움 \n= 사고무인(四顧無人)",
@@ -12592,7 +12566,7 @@
 	},
 	{
 		"id": "963",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "사면초가",
 		"chineseCharacters": "四面楚歌",
 		"description": "한 사람도 도우려는 자가 없이 고립되어 곤경에 처해있음",
@@ -12605,7 +12579,7 @@
 	},
 	{
 		"id": "964",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "사면춘풍",
 		"chineseCharacters": "四面春風",
 		"description": "모든 방면에 봄바람이 분다. 항상 좋은 얼굴로 남을 대하여 누구에게나 호감을 삼",
@@ -12721,7 +12695,7 @@
 	},
 	{
 		"id": "973",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "사상누각",
 		"chineseCharacters": "砂上樓閣",
 		"description": "모래 위에 지은 집 곧 헛된 것을 비유하는 말",
@@ -12797,7 +12771,7 @@
 	},
 	{
 		"id": "979",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "사숙",
 		"chineseCharacters": "私淑",
 		"description": "옛사람이나 멀리 있는 사람의 덕을 사모하여 직접 가르침은 못 받아도 그 사람을 표본으로 자기의 인격을 수양해 가는 것",
@@ -12920,7 +12894,7 @@
 	},
 	{
 		"id": "989",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "사통오달",
 		"chineseCharacters": "四通五達",
 		"description": "길이나 교통망 통신망 등이 사방으로 막힘없이 통함",
@@ -12946,7 +12920,7 @@
 	},
 	{
 		"id": "991",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "사필귀정",
 		"chineseCharacters": "事必歸正",
 		"description": "무슨 일이든지 결국은 옳은 대로 돌아간다는 뜻",
@@ -12959,7 +12933,7 @@
 	},
 	{
 		"id": "992",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "사후약방문",
 		"chineseCharacters": "死後藥方文",
 		"description": "이미 시기를 놓쳤음",
@@ -13012,7 +12986,7 @@
 	},
 	{
 		"id": "996",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "산상수훈",
 		"chineseCharacters": "山上垂訓",
 		"description": "예수가 산꼭대기에서 행한 설교 예수의 사랑의 윤리가 표현되어 있음",
@@ -13025,7 +12999,7 @@
 	},
 	{
 		"id": "997",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "산자수명",
 		"chineseCharacters": "山紫水明",
 		"description": "산이 아름답고 물이 맑음 경치가 아름다움",
@@ -13038,7 +13012,7 @@
 	},
 	{
 		"id": "998",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "산전수전",
 		"chineseCharacters": "山戰水戰",
 		"description": "산에서의 전투와 물에서의 전투를 다 겪음 세상일에 경험이 많음",
@@ -13064,7 +13038,7 @@
 	},
 	{
 		"id": "1000",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "산해진미",
 		"chineseCharacters": "山海珍味",
 		"description": "산과 바다의 산물(産物)을 다 갖추어 썩 잘 차린 귀한 음식",
@@ -13103,7 +13077,7 @@
 	},
 	{
 		"id": "1003",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "살신성인",
 		"chineseCharacters": "殺身成人",
 		"description": "절개를 지켜 목숨을 버림",
@@ -13142,7 +13116,7 @@
 	},
 	{
 		"id": "1006",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "삼고초려",
 		"chineseCharacters": "三顧草廬",
 		"description": "유비가 제갈 공명을 세 번이나 찾아가 군사로 초빙한 데서 유래한 말로 임금의 두터운 사랑을 입다라는 뜻\n= 삼고지례(三顧之 禮)",
@@ -13248,7 +13222,7 @@
 	},
 	{
 		"id": "1014",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "삼순구식",
 		"chineseCharacters": "三旬九食",
 		"description": "한 달에 아홉 끼를 먹을 정도로 매우 빈궁한 생활",
@@ -13273,7 +13247,7 @@
 	},
 	{
 		"id": "1016",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "삼인성호",
 		"chineseCharacters": "三人成虎",
 		"description": "여러 사람이 거리에 범이 나왔다고 하면 참말로 곧이듣게 된다. 근거 없는 말도 여러 사람이 하면 이를 믿게 된다는 뜻",
@@ -13459,7 +13433,7 @@
 	},
 	{
 		"id": "1030",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "상전벽해",
 		"chineseCharacters": "桑田碧海",
 		"description": "뽕나무밭이 변하여 바다가 된다. 세상일의 변천이 심하여 사물이 바뀜 \n= 滄海桑田(창해상전), 격세지감(隔世之感), 강산일변(江山一變)",
@@ -13472,7 +13446,7 @@
 	},
 	{
 		"id": "1031",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "상탁하부정",
 		"chineseCharacters": "上濁下不淨",
 		"description": "윗자리에 있는 사람이 잘못하면 아랫사람도 따라서 잘못하게 됨 → 윗물이 말아야 아랫물이 맑다.",
@@ -13512,7 +13486,7 @@
 	},
 	{
 		"id": "1034",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "새옹지마",
 		"chineseCharacters": "塞翁之馬",
 		"description": "세상일은 복이 될지 화가 될지 예측할 수 없다는 말 \n= 전화위복(轉禍爲福), 호사다마(好事多魔)",
@@ -13555,7 +13529,7 @@
 	},
 	{
 		"id": "1037",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "생구불망",
 		"chineseCharacters": "生口不網",
 		"description": "산 사람의 목구멍에 거미줄 치지 않는다는 말",
@@ -13607,7 +13581,7 @@
 	},
 	{
 		"id": "1041",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "서동부언",
 		"chineseCharacters": "胥動浮言",
 		"description": "거짓말을 퍼뜨려 민심을 선동함",
@@ -13698,7 +13672,7 @@
 	},
 	{
 		"id": "1048",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선견지명",
 		"chineseCharacters": "先見之明",
 		"description": "앞일을 미리 보아서 판단하는 총명",
@@ -13711,7 +13685,7 @@
 	},
 	{
 		"id": "1049",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선공후사",
 		"chineseCharacters": "先公後私",
 		"description": "공적인 일을 먼저하고 사적인 일을 뒤로 미룸",
@@ -13724,7 +13698,7 @@
 	},
 	{
 		"id": "1050",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선남선녀",
 		"chineseCharacters": "善男善女",
 		"description": "착한 남자와 여자(보통의 사람)",
@@ -13750,7 +13724,7 @@
 	},
 	{
 		"id": "1052",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선우후락",
 		"chineseCharacters": "先憂後樂",
 		"description": "세상의 근심할 일은 남보다 먼저 근심하고, 즐거워할 일은 남보다 나중에 즐거워함 곧 지사(志士)나 어진 사람의 마음씨",
@@ -13775,7 +13749,7 @@
 	},
 	{
 		"id": "1054",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선자옥질",
 		"chineseCharacters": "仙姿玉質",
 		"description": "용모가 아름답고 재질도 뛰어남",
@@ -13826,7 +13800,7 @@
 	},
 	{
 		"id": "1058",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "선풍도골",
 		"chineseCharacters": "仙風道骨",
 		"description": "뛰어난 풍채와 골격 곧, 풍채가 뛰어난 사람을 말함",
@@ -13839,7 +13813,7 @@
 	},
 	{
 		"id": "1059",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "설망어검",
 		"chineseCharacters": "舌芒於劍",
 		"description": "혀는 칼보다 날카로움",
@@ -13852,7 +13826,7 @@
 	},
 	{
 		"id": "1060",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "설부화용",
 		"chineseCharacters": "雪膚花容",
 		"description": "① 흰 살결에 고운 얼굴 \n② 미인의 얼굴",
@@ -13865,7 +13839,7 @@
 	},
 	{
 		"id": "1061",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "설상가상",
 		"chineseCharacters": "雪上加霜",
 		"description": "눈 위에 또 서리가 덮인다. 불행이 엎친 데 덮친 격으로 거듭 생김",
@@ -13878,7 +13852,7 @@
 	},
 	{
 		"id": "1062",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "설왕설래",
 		"chineseCharacters": "說往說來",
 		"description": "서로 변론(辯論)을 주고받으며 옥신각신함 \n= 시시비비(是是非非), 왈가왈부( 曰可曰否), 시야비야(是也非也)",
@@ -13904,7 +13878,7 @@
 	},
 	{
 		"id": "1064",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "섬섬옥수",
 		"chineseCharacters": "纖纖玉手",
 		"description": "가냘프고 고운 여자의 손",
@@ -14118,7 +14092,7 @@
 	},
 	{
 		"id": "1080",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "소탐대실",
 		"chineseCharacters": "小貪大失",
 		"description": "작은 것을 탐내다가 큰 것을 잃음 \n= 교각살우(矯角殺牛)",
@@ -14144,7 +14118,7 @@
 	},
 	{
 		"id": "1082",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "속수무책",
 		"chineseCharacters": "束手無策",
 		"description": "어찌할 도리 없이 꼼짝 못 함",
@@ -14209,7 +14183,7 @@
 	},
 	{
 		"id": "1087",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "수구초심",
 		"chineseCharacters": "首邱初心",
 		"description": "여우가 죽을 때 고향 쪽으로 머리를 둔다 고향을 생각하는 마음 \n= 망운지정(望雲之情) 타향에서 고향에 계신 어머니를 그리는 마음",
@@ -14222,7 +14196,7 @@
 	},
 	{
 		"id": "1088",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "수명장수",
 		"chineseCharacters": "壽命長壽",
 		"description": "수명이 길어 오래도록 삶",
@@ -14248,7 +14222,7 @@
 	},
 	{
 		"id": "1090",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "수복강녕",
 		"chineseCharacters": "壽福康寧",
 		"description": "오래 살고 복되며, 몸이 건강하고 편안함",
@@ -14261,7 +14235,7 @@
 	},
 	{
 		"id": "1091",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "수불석권",
 		"chineseCharacters": "手不釋券",
 		"description": "늘 공부를 게을리하지 않음",
@@ -14274,7 +14248,7 @@
 	},
 	{
 		"id": "1092",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "수서양단",
 		"chineseCharacters": "首鼠兩端",
 		"description": "어떤 일을 할 때 쭈뼛거리고 주저하여 실행하지 못함 어느 쪽으로도 취할 수 없는 모호한 태도",
@@ -14343,7 +14317,7 @@
 	},
 	{
 		"id": "1097",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "수어지교",
 		"chineseCharacters": "水魚之交",
 		"description": "떨어질 수 없는 아주 친밀한 사이 → 군신수어(君臣水魚)",
@@ -14439,7 +14413,7 @@
 	},
 	{
 		"id": "1104",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "수주대토",
 		"chineseCharacters": "守株待兎",
 		"description": "달리 변통할 줄 모르고 어리석게 한 가지만 기다리는 융통성 없는 일",
@@ -14493,7 +14467,7 @@
 	},
 	{
 		"id": "1108",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "숙맥불변",
 		"chineseCharacters": "菽麥不辨",
 		"description": "어리석고 못난 사람을 비유하여 이르는 말",
@@ -14532,7 +14506,7 @@
 	},
 	{
 		"id": "1111",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "순망치한",
 		"chineseCharacters": "脣亡齒寒",
 		"description": "입술이 없으면 이가 시리다. 자기가 의지하던 사람이 없으면 다른 한쪽도 위험하다는 뜻",
@@ -14584,7 +14558,7 @@
 	},
 	{
 		"id": "1115",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "승승장구",
 		"chineseCharacters": "乘勝長驅",
 		"description": "싸움에서 이긴 기세를 타고 계속 적을 몰아침",
@@ -14647,7 +14621,7 @@
 	},
 	{
 		"id": "1120",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "시시비비",
 		"chineseCharacters": "是是非非",
 		"description": "옳고 그름을 가리어 밝힘",
@@ -14673,7 +14647,7 @@
 	},
 	{
 		"id": "1122",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "시종여일",
 		"chineseCharacters": "始終如一",
 		"description": "처음이나 나중이 한결같아서 변함없음 \n= 始終一貫(시종일관)",
@@ -14686,7 +14660,7 @@
 	},
 	{
 		"id": "1123",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "시종일관",
 		"chineseCharacters": "始終一貫",
 		"description": "처음과 끝이 같음 \n= 始終如一(시종여일)",
@@ -14712,7 +14686,7 @@
 	},
 	{
 		"id": "1125",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "식불이미",
 		"chineseCharacters": "食不二味",
 		"description": "음식을 잘 차려 먹지 아니함",
@@ -14725,7 +14699,7 @@
 	},
 	{
 		"id": "1126",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "식소사번",
 		"chineseCharacters": "食少事煩",
 		"description": "먹을 것은 적고 할 일은 많음",
@@ -14738,7 +14712,7 @@
 	},
 	{
 		"id": "1127",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "식자우환",
 		"chineseCharacters": "識字憂患",
 		"description": "아는 것이 탈이라는 말로 학식이 있는 것이 도리어 근심을 사게 됨을 말함 → 아는 것이 병이다",
@@ -14764,7 +14738,7 @@
 	},
 	{
 		"id": "1129",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "신상필벌",
 		"chineseCharacters": "信賞必罰",
 		"description": "공이 있는 사람에게 반드시 상을 주고, 죄가 있는 사람에게는 반드시 벌을 줌",
@@ -14777,7 +14751,7 @@
 	},
 	{
 		"id": "1130",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "신언서판",
 		"chineseCharacters": "身言書判",
 		"description": "사람됨을 판단하는 네 가지 기준 신수(身手)와 말씨와 문필과 판단력을 일컬음",
@@ -14829,7 +14803,7 @@
 	},
 	{
 		"id": "1134",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "신출귀몰",
 		"chineseCharacters": "新出鬼沒",
 		"description": "귀신과 같이 홀연히 나타났다가 홀연히 사라짐. 자유자재로 출몰하여 그 변화를 헤아릴 수 없는 일",
@@ -14842,7 +14816,7 @@
 	},
 	{
 		"id": "1135",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "실리추구",
 		"chineseCharacters": "實利追求",
 		"description": "현실적인 이익을 추구함",
@@ -14894,7 +14868,7 @@
 	},
 	{
 		"id": "1139",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "심기일전",
 		"chineseCharacters": "心機一轉",
 		"description": "어떤 계기로 그전까지의 생각을 뒤집듯이 바꿈",
@@ -14907,7 +14881,7 @@
 	},
 	{
 		"id": "1140",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "심사숙고",
 		"chineseCharacters": "深思塾考",
 		"description": "깊이 생각하고 곧 신중을 기하여 곰곰이 생각함",
@@ -14933,7 +14907,7 @@
 	},
 	{
 		"id": "1142",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "심심상인",
 		"chineseCharacters": "心心相印",
 		"description": "마음에서 마음으로 전함 \n= 이심전심(以心傳心), 불립문자(不立文字), 교외별전(敎外別傳)",
@@ -14998,7 +14972,7 @@
 	},
 	{
 		"id": "1147",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "십목소시",
 		"chineseCharacters": "十目所視",
 		"description": "모든 사람이 다 보고 있어 세상 사람을 속일 수 없음",
@@ -15011,7 +14985,7 @@
 	},
 	{
 		"id": "1148",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "십벌지목",
 		"chineseCharacters": "十伐之木",
 		"description": "‘열 번 찍어 안 넘어가는 나무가 없다’라는 뜻 \n= 십필지목(十必誅木), 마부위침(磨斧爲針)",
@@ -15024,7 +14998,7 @@
 	},
 	{
 		"id": "1149",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "십상팔구",
 		"chineseCharacters": "十常八九",
 		"description": "열이면 여덟이나 아홉은 그러함",
@@ -15037,7 +15011,7 @@
 	},
 	{
 		"id": "1150",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "십시일반",
 		"chineseCharacters": "十匙一飯",
 		"description": "열 사람이 한 술씩 보태면 한사람 먹을 분량이 된다 여러 사람이 힘을 합하면 한 사람을 돕기는 쉽다는 말",
@@ -15050,7 +15024,7 @@
 	},
 	{
 		"id": "1151",
-		"category": 2,
+		"category": 23,
 		"koreanCharacters": "십일지국",
 		"chineseCharacters": "十日之菊",
 		"description": "국화는 9월 9일이 절정이므로 이미 때가 늦었다는 말",
@@ -15131,7 +15105,7 @@
 	},
 	{
 		"id": "1157",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "아비규환",
 		"chineseCharacters": "阿鼻叫喚",
 		"description": "지옥 같은 고통에 못 견디어 구원을 부르짖는 소리 심한 참상을 말함",
@@ -15170,7 +15144,7 @@
 	},
 	{
 		"id": "1160",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "아전인수",
 		"chineseCharacters": "我田引水",
 		"description": "제 논에 물대기 자기에게 유리하도록 행동하는 것\n↔ 역지사지(易地思之)",
@@ -15248,7 +15222,7 @@
 	},
 	{
 		"id": "1166",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "안분지족",
 		"chineseCharacters": "安分知足",
 		"description": "편한 마음으로 제 분수를 지키며 만족을 앎 \n= 안빈낙도(安貧樂道)",
@@ -15274,7 +15248,7 @@
 	},
 	{
 		"id": "1168",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "안빈낙도",
 		"chineseCharacters": "安貧樂道",
 		"description": "구차한 중에도 편한 마음으로 도를 즐김\n= 안분지족(安分知足)",
@@ -15376,7 +15350,7 @@
 	},
 	{
 		"id": "1176",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "안하무인",
 		"chineseCharacters": "眼下無人",
 		"description": "눈 아래 사람이 없음. 곧 교만하여 사람을 업신여김",
@@ -15478,7 +15452,7 @@
 	},
 	{
 		"id": "1184",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "애매모호",
 		"chineseCharacters": "曖昧模糊",
 		"description": "사물의 이치가 희미하고 분명치 않음",
@@ -15491,7 +15465,7 @@
 	},
 	{
 		"id": "1185",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "애이불비",
 		"chineseCharacters": "哀而不悲",
 		"description": "속으로는 슬퍼하지만, 겉으로는 슬픔을 나타내지 아니함",
@@ -15568,7 +15542,7 @@
 	},
 	{
 		"id": "1191",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "약방감초",
 		"chineseCharacters": "藥房甘草",
 		"description": "무슨 일이나 빠짐없이 끼임 반드시 끼어야 할 사물",
@@ -15581,7 +15555,7 @@
 	},
 	{
 		"id": "1192",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "약육강식",
 		"chineseCharacters": "弱肉强食",
 		"description": "약한 놈이 강한 놈에게 먹힘",
@@ -15620,7 +15594,7 @@
 	},
 	{
 		"id": "1195",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "양두구육",
 		"chineseCharacters": "羊頭狗肉",
 		"description": "양의 머리를 내걸고 개고기를 판다 겉은 훌륭하나 속은 변변치 못함\n= 구밀복검(口蜜腹劍), 면종복배(面從腹背), 표리부동(表裏不同)",
@@ -15633,7 +15607,7 @@
 	},
 	{
 		"id": "1196",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "양상군자",
 		"chineseCharacters": "梁上君子",
 		"description": "들보 위에 있는 군자라는 뜻으로 도둑을 미화(美化)한 말",
@@ -15728,7 +15702,7 @@
 	},
 	{
 		"id": "1203",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "어두육미",
 		"chineseCharacters": "魚頭肉尾",
 		"description": "물고기는 머리 부분이, 짐승은 꼬리가 맛있다는 뜻",
@@ -15754,7 +15728,7 @@
 	},
 	{
 		"id": "1205",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "어부지리",
 		"chineseCharacters": "漁父之利",
 		"description": "도요새가 조개를 쪼아 먹으려다가 둘 다 물리어 서로 다투고 있을 때 어부가 와서 둘을 잡아갔다는 고사에서 나온 말 둘이 다투는 사이에 제삼자가 이득을 보는 것 \n= 견토지쟁(犬兎之爭), 방휼지쟁(蚌鷸之爭)",
@@ -15767,7 +15741,7 @@
 	},
 	{
 		"id": "1206",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "어불성설",
 		"chineseCharacters": "語不成說",
 		"description": "말이 이치에 맞지 않음",
@@ -15858,7 +15832,7 @@
 	},
 	{
 		"id": "1213",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "언어도단",
 		"chineseCharacters": "言語道斷",
 		"description": "어처구니가 없어 할 말이 없음",
@@ -15884,7 +15858,7 @@
 	},
 	{
 		"id": "1215",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "언중유골",
 		"chineseCharacters": "言中有骨",
 		"description": "예사로운 말속에 깊은 뜻이 있는 것을 말함",
@@ -15897,7 +15871,7 @@
 	},
 	{
 		"id": "1216",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "언즉시야",
 		"chineseCharacters": "言則是也",
 		"description": "말이 사리에 맞음",
@@ -16001,7 +15975,7 @@
 	},
 	{
 		"id": "1224",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "여리박빙",
 		"chineseCharacters": "如履薄氷",
 		"description": "엷은 얼음을 밟는 듯 매우 위험한 것을 뜻함",
@@ -16040,7 +16014,7 @@
 	},
 	{
 		"id": "1227",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "여반장",
 		"chineseCharacters": "如反掌",
 		"description": "손바닥을 뒤집는 것 매우 쉬운 일",
@@ -16196,7 +16170,7 @@
 	},
 	{
 		"id": "1239",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "역지사지",
 		"chineseCharacters": "易地思之",
 		"description": "처지를 바꾸어 생각함",
@@ -16222,7 +16196,7 @@
 	},
 	{
 		"id": "1241",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "연모지정",
 		"chineseCharacters": "戀慕之情",
 		"description": "사랑하여 그리워하는 정",
@@ -16235,7 +16209,7 @@
 	},
 	{
 		"id": "1242",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "연목구어",
 		"chineseCharacters": "緣木求魚",
 		"description": "나무에 올라가 고기를 구함. 불가능한 일을 하고자 할 때를 비유",
@@ -16369,7 +16343,7 @@
 	},
 	{
 		"id": "1252",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "염량세태",
 		"chineseCharacters": "炎凉世態",
 		"description": "권세가 있을 때는 아첨하여 좇고, 권세가 없어지면 푸대접하는 세속의 인심",
@@ -16395,7 +16369,7 @@
 	},
 	{
 		"id": "1254",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "염화미소",
 		"chineseCharacters": "拈華微笑",
 		"description": "마음에서 마음으로 전함 \n= 拈華示衆(염화시중)",
@@ -16557,7 +16531,7 @@
 	},
 	{
 		"id": "1268",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오리무중",
 		"chineseCharacters": "五里霧中",
 		"description": "오리나 되는 안갯속과 같이 희미하고 애매하여 길을 찾기 어려움의 비유",
@@ -16570,7 +16544,7 @@
 	},
 	{
 		"id": "1269",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오매불망",
 		"chineseCharacters": "寤寐不忘",
 		"description": "밤낮으로 자나 깨나 잊지 못함",
@@ -16616,7 +16590,7 @@
 	},
 	{
 		"id": "1273",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "오불관언",
 		"chineseCharacters": "吾不關焉",
 		"description": "나는 상관하지 아니함",
@@ -16629,7 +16603,7 @@
 	},
 	{
 		"id": "1274",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오비삼척",
 		"chineseCharacters": "吾鼻三尺",
 		"description": "자기 사정이 다급하여 남에게 신경 쓸 여유가 없다.  → 내 코가 석자다",
@@ -16642,7 +16616,7 @@
 	},
 	{
 		"id": "1275",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오비이락",
 		"chineseCharacters": "烏飛梨落",
 		"description": "까마귀 날자 배 떨어진다 우연의 일치로 남의 의심을 받는 것",
@@ -16677,7 +16651,7 @@
 	},
 	{
 		"id": "1278",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오상고절",
 		"chineseCharacters": "傲霜孤節",
 		"description": "서릿발 날리는 추위에도 굴하지 않고 외로이 지키는 절개 국화를 말함",
@@ -16712,7 +16686,7 @@
 	},
 	{
 		"id": "1281",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "오십보백보",
 		"chineseCharacters": "五十步百步",
 		"description": "양자 간에 차이는 있으나 본질적으로 같다는 뜻",
@@ -16820,7 +16794,7 @@
 	},
 	{
 		"id": "1290",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오월동주",
 		"chineseCharacters": "吳越同舟",
 		"description": "오나라 사람과 월나라 사람이 한배를 탐 사이가 좋지 못한 사람끼리도 자기의 이익을 위해서는 행동을 같이함",
@@ -16868,7 +16842,7 @@
 	},
 	{
 		"id": "1294",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "오합지졸",
 		"chineseCharacters": "烏合之卒",
 		"description": "까마귀 떼가 모인 것처럼 질서로 통일도 없이 모인 무리, 어중이떠중이 무리를 말함",
@@ -17075,7 +17049,7 @@
 	},
 	{
 		"id": "1310",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "와신상담",
 		"chineseCharacters": "臥薪嘗膽",
 		"description": "섶에 누워 쓸개를 씹는다는 뜻으로 원수를 갚고자 고생을 참고 견딤",
@@ -17127,7 +17101,7 @@
 	},
 	{
 		"id": "1314",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "외유내강",
 		"chineseCharacters": "外柔內剛",
 		"description": "겉으로 보기에는 부드러우나 속은 꿋꿋하고 강함\n↔ 외강내유(外剛內柔)",
@@ -17178,7 +17152,7 @@
 	},
 	{
 		"id": "1318",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "요산요수",
 		"chineseCharacters": "樂山樂水",
 		"description": "지자요수 인자요산(智者樂水 仁者樂山)의 준말, 지혜있는 자는 사리에 통달하여 물과 같이 막힘이 없으므로 물을 좋아하고, 어진 자는 의리에 밝고 산과 같이 중후하여 변하지 않으므로 산을 좋아한다는 뜻",
@@ -17204,7 +17178,7 @@
 	},
 	{
 		"id": "1320",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "요조숙녀",
 		"chineseCharacters": "窈窕淑女",
 		"description": "마음씨가 얌전하고 자태가 아름다운 여자",
@@ -17217,7 +17191,7 @@
 	},
 	{
 		"id": "1321",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "요지부동",
 		"chineseCharacters": "搖之不動",
 		"description": "흔들어도 꼼짝 않음",
@@ -17256,7 +17230,7 @@
 	},
 	{
 		"id": "1324",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "용두사미",
 		"chineseCharacters": "龍頭蛇尾",
 		"description": "시초는 굉장하고 훌륭하나 끝이 흐지부지하고 좋지 않음",
@@ -17269,7 +17243,7 @@
 	},
 	{
 		"id": "1325",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "용미봉탕",
 		"chineseCharacters": "龍尾鳳湯",
 		"description": "맛이 썩 좋은 음식을 가리키는 말",
@@ -17282,7 +17256,7 @@
 	},
 	{
 		"id": "1326",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "용사비등",
 		"chineseCharacters": "龍蛇飛騰",
 		"description": "살아 움직이듯이 매우 활기 있게 잘 쓴 필력을 이름",
@@ -17321,7 +17295,7 @@
 	},
 	{
 		"id": "1329",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "우공이산",
 		"chineseCharacters": "愚公移山",
 		"description": "우공이라는 사람이 꾸준하게 끝까지 한다면 산을 옮기는 일도 가능하다고 했다는 고사에서 온 말",
@@ -17360,7 +17334,7 @@
 	},
 	{
 		"id": "1332",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "우수마발",
 		"chineseCharacters": "牛搜馬勃",
 		"description": "쇠오줌과 말똥, 곧 별반 대수롭지 않은 물건을 뜻함",
@@ -17399,7 +17373,7 @@
 	},
 	{
 		"id": "1335",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "우유부단",
 		"chineseCharacters": "優柔不斷",
 		"description": "어물어물하기만 하고 딱 잘라 결단을 하지 못함",
@@ -17425,7 +17399,7 @@
 	},
 	{
 		"id": "1337",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "우이독경",
 		"chineseCharacters": "牛耳讀經",
 		"description": "소귀에 경 읽기 \n= 牛耳誦經(우이송경), 馬耳東風(마이동풍) 아무리 가르쳐도 깨닫지 못한다",
@@ -17451,7 +17425,7 @@
 	},
 	{
 		"id": "1339",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "우후죽순",
 		"chineseCharacters": "雨後竹筍",
 		"description": "비 온 뒤에 죽순이 나듯 어떤 일이 한때에 많이 생겨남을 비유하여 이르는 말.",
@@ -17646,7 +17620,7 @@
 	},
 	{
 		"id": "1354",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "원화소복",
 		"chineseCharacters": "遠禍召福",
 		"description": "화를 멀리하고 복을 불러들임",
@@ -17736,7 +17710,7 @@
 	},
 	{
 		"id": "1361",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "위기일발",
 		"chineseCharacters": "危機一髮",
 		"description": "거의 여유가 없는 위급한 순간",
@@ -17749,7 +17723,7 @@
 	},
 	{
 		"id": "1362",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "위편삼절",
 		"chineseCharacters": "韋編三絶",
 		"description": "공자가 읽던 책 끈이 세 번이나 끊어졌다는 것에서 유래한 것으로 열심히 공부한다는 뜻",
@@ -17762,7 +17736,7 @@
 	},
 	{
 		"id": "1363",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유구무언",
 		"chineseCharacters": "有口無言",
 		"description": "입은 있으나 말이 없다는 뜻으로 변명을 못 함을 이름",
@@ -17801,7 +17775,7 @@
 	},
 	{
 		"id": "1366",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유만부동",
 		"chineseCharacters": "類萬不同",
 		"description": "모든 것이 서로 같지 아니함",
@@ -17814,7 +17788,7 @@
 	},
 	{
 		"id": "1367",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유명무실",
 		"chineseCharacters": "有名無實",
 		"description": "① 이름뿐이고 실상은 없음 \n② 명예뿐이고 실지가 없는 것",
@@ -17827,7 +17801,7 @@
 	},
 	{
 		"id": "1368",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유비무환",
 		"chineseCharacters": "有備無患",
 		"description": "미리 준비가 있으면 뒷걱정이 없다는 뜻",
@@ -17879,7 +17853,7 @@
 	},
 	{
 		"id": "1372",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유아독존",
 		"chineseCharacters": "唯我獨尊",
 		"description": "이 세상에는 나보다 더 높은 사람이 없다고 뽐냄",
@@ -17892,7 +17866,7 @@
 	},
 	{
 		"id": "1373",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유야무야",
 		"chineseCharacters": "有耶無耶",
 		"description": "있는지 없는지 모르게 희미함",
@@ -17905,7 +17879,7 @@
 	},
 	{
 		"id": "1374",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유유상종",
 		"chineseCharacters": "類類相從",
 		"description": "같은 무리 또는 종류끼리 서로 내왕하며 사귐",
@@ -17918,7 +17892,7 @@
 	},
 	{
 		"id": "1375",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "유일무이",
 		"chineseCharacters": "唯一無二",
 		"description": "오직 하나뿐 둘도 없음",
@@ -17931,7 +17905,7 @@
 	},
 	{
 		"id": "1376",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유언비어",
 		"chineseCharacters": "流言蜚語",
 		"description": "근거 없는 좋지 못한 말",
@@ -17944,7 +17918,7 @@
 	},
 	{
 		"id": "1377",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유유상종",
 		"chineseCharacters": "類類相從",
 		"description": "같은 패끼리 왕래하여 사귐",
@@ -17957,7 +17931,7 @@
 	},
 	{
 		"id": "1378",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "유유자적",
 		"chineseCharacters": "悠悠自適",
 		"description": "속세를 떠나 아무 속박 없이 조용하고 편안하게 삶",
@@ -18074,7 +18048,7 @@
 	},
 	{
 		"id": "1387",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "은인자중",
 		"chineseCharacters": "隱忍自重",
 		"description": "괴로움을 참고 몸가짐을 조심함",
@@ -18087,7 +18061,7 @@
 	},
 	{
 		"id": "1388",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "을축갑자",
 		"chineseCharacters": "乙丑甲子",
 		"description": "갑자을축이 바른 차례인데 그 차례가 바뀜과 같이 일이 제대로 안 되고 순서가 바뀜",
@@ -18113,7 +18087,7 @@
 	},
 	{
 		"id": "1390",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "음덕양보",
 		"chineseCharacters": "陰德陽報",
 		"description": "남모르게 덕을 쌓은 사람은 뒤에 그 보답을 절로 받음",
@@ -18154,7 +18128,7 @@
 	},
 	{
 		"id": "1393",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "음풍농월",
 		"chineseCharacters": "吟風弄月",
 		"description": "맑은 바람과 밝은 달을 노래함. 풍류를 즐긴다는 뜻\n= 음풍영월(吟風咏月)",
@@ -18245,7 +18219,7 @@
 	},
 	{
 		"id": "1400",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "의려지망",
 		"chineseCharacters": "倚閭之望",
 		"description": "어머니가 문에 기대어 자식이 돌아오기를 마음 조이며 기다리는 것",
@@ -18285,7 +18259,7 @@
 	},
 	{
 		"id": "1403",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이관규천",
 		"chineseCharacters": "以管窺天",
 		"description": "대롱을 통해 하늘을 봄 우물 안 개구리",
@@ -18451,7 +18425,7 @@
 	},
 	{
 		"id": "1416",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이실직고",
 		"chineseCharacters": "以實直告",
 		"description": "참으로써 바로 고함 \n= 이실고지(以實告之)",
@@ -18464,7 +18438,7 @@
 	},
 	{
 		"id": "1417",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이심전심",
 		"chineseCharacters": "以心傳心",
 		"description": "말을 하지 않더라도 서로 마음이 통하여 앎 \n= 불립문자(不立文字), 심심상인(心心相印), 교외별전(敎外別傳)",
@@ -18477,7 +18451,7 @@
 	},
 	{
 		"id": "1418",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이여반장",
 		"chineseCharacters": "易如反掌",
 		"description": "쉽기가 손바닥 뒤집는 것과 같음",
@@ -18490,7 +18464,7 @@
 	},
 	{
 		"id": "1419",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "이열치열",
 		"chineseCharacters": "以熱治熱",
 		"description": "열로써 열을 다스림",
@@ -18529,7 +18503,7 @@
 	},
 	{
 		"id": "1422",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이율배반",
 		"chineseCharacters": "二律背反",
 		"description": "꼭 같은 근거를 가지고 정당하다고 주장되는 서로 모순 되는 두 명제, 또는 그 관계",
@@ -18555,7 +18529,7 @@
 	},
 	{
 		"id": "1424",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이인동심",
 		"chineseCharacters": "二人同心",
 		"description": "절친한 친구 사이",
@@ -18620,7 +18594,7 @@
 	},
 	{
 		"id": "1429",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "이하부정관",
 		"chineseCharacters": "李下不正冠",
 		"description": "자두나무 아래서는 갓을 고쳐 쓰지 말라는 뜻으로 남에게 의심받을 일을 하지 않도록 주의하라는 말",
@@ -18634,7 +18608,7 @@
 	},
 	{
 		"id": "1430",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "이현령비현령",
 		"chineseCharacters": "耳懸令鼻懸令",
 		"description": "귀에 걸면 귀걸이, 코에 걸면 코걸이 즉 이렇게도 저렇게도 될 수 있음",
@@ -18649,7 +18623,7 @@
 	},
 	{
 		"id": "1431",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "익자삼우",
 		"chineseCharacters": "益者三友",
 		"description": "사귀어 보탬이 되는 세 벗으로 \n① 정직한 사람, \n②신의 있는 사람, \n③ 학식 있는 사람 등을 말함",
@@ -18662,7 +18636,7 @@
 	},
 	{
 		"id": "1432",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "인과응보",
 		"chineseCharacters": "因果應報",
 		"description": "좋은 일에는 좋은 결과가, 나쁜 일에는 나쁜 결과가 따름",
@@ -18778,7 +18752,7 @@
 	},
 	{
 		"id": "1441",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "인생무상",
 		"chineseCharacters": "人生無常",
 		"description": "인생이 덧없음을 이르는 말 \n= 인생여조로(人生如朝露)",
@@ -18861,7 +18835,7 @@
 	},
 	{
 		"id": "1447",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "인인성사",
 		"chineseCharacters": "因人成事",
 		"description": "남의 힘으로 일을 이룸",
@@ -18874,7 +18848,7 @@
 	},
 	{
 		"id": "1448",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "인자무적",
 		"chineseCharacters": "仁者無敵",
 		"description": "어진 사람에게는 적이 없음",
@@ -18900,7 +18874,7 @@
 	},
 	{
 		"id": "1450",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "인지상정",
 		"chineseCharacters": "人之常情",
 		"description": "인간으로서 가지는 보통의 인정",
@@ -18968,7 +18942,7 @@
 	},
 	{
 		"id": "1455",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일거양득",
 		"chineseCharacters": "一擧兩得",
 		"description": "한 가지 일을 하여 두 가지의 이득을 봄 \n= 일석이조(一石二鳥)",
@@ -18994,7 +18968,7 @@
 	},
 	{
 		"id": "1457",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일기당천",
 		"chineseCharacters": "一騎當千",
 		"description": "한 사람이 천 사람을 당해 냄 아주 세고 무예가 뛰어남",
@@ -19007,7 +18981,7 @@
 	},
 	{
 		"id": "1458",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일도양단",
 		"chineseCharacters": "一刀兩斷",
 		"description": "한칼로 쳐서 둘로 냄. 머뭇거리지 않고 일이나 행동을 선뜻 결정함의 비유",
@@ -19046,7 +19020,7 @@
 	},
 	{
 		"id": "1461",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일망무제",
 		"chineseCharacters": "一望無際",
 		"description": "아득하게 멀고 넓어서 끝이 없음",
@@ -19059,7 +19033,7 @@
 	},
 	{
 		"id": "1462",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일망타진",
 		"chineseCharacters": "一網打盡",
 		"description": "한꺼번에 모조리 다 잡음",
@@ -19098,7 +19072,7 @@
 	},
 	{
 		"id": "1465",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일목요연",
 		"chineseCharacters": "一目瞭然",
 		"description": "첫눈에도 똑똑하게 알 수 있음",
@@ -19124,7 +19098,7 @@
 	},
 	{
 		"id": "1467",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일보불양",
 		"chineseCharacters": "一步不讓",
 		"description": "남에게 한 걸음도 양보하지 않음",
@@ -19167,7 +19141,7 @@
 	},
 	{
 		"id": "1470",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일사불란",
 		"chineseCharacters": "一絲不亂",
 		"description": "질서 정연하여 조금도 흔들림이 없음",
@@ -19180,7 +19154,7 @@
 	},
 	{
 		"id": "1471",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일사천리",
 		"chineseCharacters": "一瀉千里",
 		"description": "말이나 일의 진행이 거침없이 빨리 죽죽 나감의 비유",
@@ -19206,7 +19180,7 @@
 	},
 	{
 		"id": "1473",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일시동인",
 		"chineseCharacters": "一視同仁",
 		"description": "모두를 평등하게 보아 똑같이 사랑함",
@@ -19246,7 +19220,7 @@
 	},
 	{
 		"id": "1476",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일어탁수",
 		"chineseCharacters": "一魚濁水",
 		"description": "물고기 한 마리가 큰물을 흐리게 하듯 한 사람의 악행으로 인하여 여러 사람이 그 해를 받게 되는 것을 뜻함 \n= 일어혼전천(一 魚混全川) → 미꾸라지 한 마리가 온 개천을 흐려 놓는다",
@@ -19272,7 +19246,7 @@
 	},
 	{
 		"id": "1478",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "일언이폐지",
 		"chineseCharacters": "一言以蔽之",
 		"description": "한마디로 말로 능히 전체의 뜻을 다함 \n= 폐일언(蔽一言), 일언지하(一言之下)",
@@ -19286,7 +19260,7 @@
 	},
 	{
 		"id": "1479",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일언지하",
 		"chineseCharacters": "一言之下",
 		"description": "말 한마디로 끊음 한마디로 딱 잘라 말함",
@@ -19299,7 +19273,7 @@
 	},
 	{
 		"id": "1480",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일엽지추",
 		"chineseCharacters": "一葉知秋",
 		"description": "사물의 일단을 앎으로써 대세를 미루어 안다는 말",
@@ -19312,7 +19286,7 @@
 	},
 	{
 		"id": "1481",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일엽편주",
 		"chineseCharacters": "一葉片舟",
 		"description": "한 척의 조그마한 쪽배란 뜻\n=일엽락 천하지추(一葉落 天下知秋)",
@@ -19377,7 +19351,7 @@
 	},
 	{
 		"id": "1486",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일일삼추",
 		"chineseCharacters": "一日三秋",
 		"description": "하루가 3년처럼 길게 느껴짐, 즉 몹시 애태우며 기다림",
@@ -19404,7 +19378,7 @@
 	},
 	{
 		"id": "1488",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일장춘몽",
 		"chineseCharacters": "一場春夢",
 		"description": "인생의 영화(榮華)는 한바탕의 봄 꿈과 같이 헛됨",
@@ -19456,7 +19430,7 @@
 	},
 	{
 		"id": "1492",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일진일퇴",
 		"chineseCharacters": "一進一退",
 		"description": "① 앞으로 나아갔다 뒤로 물러갔다 함\n② 힘이 비슷하여 이겼다 졌다 함",
@@ -19469,7 +19443,7 @@
 	},
 	{
 		"id": "1493",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일촉즉발",
 		"chineseCharacters": "一觸卽發",
 		"description": "조금만 닿아도 곧 폭발할 것 같은 모양 막 일이 일어날 듯한 위험한 지경",
@@ -19495,7 +19469,7 @@
 	},
 	{
 		"id": "1495",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일취월장",
 		"chineseCharacters": "日就月將",
 		"description": "날마다 달마다 발전함 \n= 일진월보(日進月步)",
@@ -19508,7 +19482,7 @@
 	},
 	{
 		"id": "1496",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일편단심",
 		"chineseCharacters": "一片丹心",
 		"description": "한 조각의 붉은 마음으로 정성, 진심을 뜻함",
@@ -19547,7 +19521,7 @@
 	},
 	{
 		"id": "1499",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일필휘지",
 		"chineseCharacters": "一筆揮之",
 		"description": "단숨에 글씨나 그림을 줄기차게 쓰거나 그림",
@@ -19573,7 +19547,7 @@
 	},
 	{
 		"id": "1501",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "일확천금",
 		"chineseCharacters": "一攫千金",
 		"description": "힘 안 들이고 한꺼번에 많은 재물을 얻음",
@@ -19586,7 +19560,7 @@
 	},
 	{
 		"id": "1502",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "임갈굴정",
 		"chineseCharacters": "臨渴掘井",
 		"description": "목마른 뒤에 우물을 판다는 뜻으로, 준비 없이 갑자기 일을 당하여 허둥지둥하고 애씀",
@@ -19625,7 +19599,7 @@
 	},
 	{
 		"id": "1505",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "임시방편",
 		"chineseCharacters": "臨時方便",
 		"description": "필요에 따라 그때그때의 정해 일을 쉽고 편리하게 치를 수 있는 수단\n= 임시변통(臨時變通), 임시처변(臨時處變)",
@@ -19638,7 +19612,7 @@
 	},
 	{
 		"id": "1506",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "입신양명",
 		"chineseCharacters": "立身揚名",
 		"description": "출세하여 자기의 이름이 세상에 드날리게 됨",
@@ -19664,7 +19638,7 @@
 	},
 	{
 		"id": "1508",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "임전무퇴",
 		"chineseCharacters": "臨戰無退",
 		"description": "싸움에 임하여 물러섬이 없음",
@@ -19757,7 +19731,7 @@
 	},
 	{
 		"id": "1516",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "자가당착",
 		"chineseCharacters": "自家撞着",
 		"description": "자기의 언행이 전후 모순되어 들어맞지 않음.\n= 모순(矛盾)",
@@ -19770,7 +19744,7 @@
 	},
 	{
 		"id": "1517",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "자강불식",
 		"chineseCharacters": "自强不息",
 		"description": "스스로 힘쓰고 쉬지 아니함.",
@@ -19796,7 +19770,7 @@
 	},
 	{
 		"id": "1519",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "자격지심",
 		"chineseCharacters": "自激之心",
 		"description": "제가 한 일에 대하여 스스로 미흡한 생각을 가짐.\n= 자굴지심(自屈之心), 자비지심(自卑之心)",
@@ -19848,7 +19822,7 @@
 	},
 	{
 		"id": "1523",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "자괴지심",
 		"chineseCharacters": "自愧之心",
 		"description": "스스로 부끄럽게 여기는 마음",
@@ -19901,7 +19875,7 @@
 	},
 	{
 		"id": "1527",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "자수성가",
 		"chineseCharacters": "自手成家",
 		"description": "물려받은 재산이 없는 사람이 자신의 힘으로 한 살림을 이룩함\n= 자성일가(自成一家)",
@@ -19927,7 +19901,7 @@
 	},
 	{
 		"id": "1529",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "자승자박",
 		"chineseCharacters": "自繩自縛",
 		"description": "자기의 줄로 자기를 묶는다는 말로 자기가 자기를 망치게 한다는 뜻",
@@ -19966,7 +19940,7 @@
 	},
 	{
 		"id": "1532",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "자아성찰",
 		"chineseCharacters": "自我省察",
 		"description": "자기의 마음을 반성하여 살핌",
@@ -19979,7 +19953,7 @@
 	},
 	{
 		"id": "1533",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "자업자득",
 		"chineseCharacters": "自業自得",
 		"description": "자기가 저지른 일의 인과응보를 자기 자신이 받음\n=인과응보(因果應報)",
@@ -20031,7 +20005,7 @@
 	},
 	{
 		"id": "1537",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "자중지란",
 		"chineseCharacters": "自中之亂",
 		"description": "같은 패 안에서 일어나는 싸움",
@@ -20070,7 +20044,7 @@
 	},
 	{
 		"id": "1540",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "자포자기",
 		"chineseCharacters": "自暴自棄",
 		"description": "절망 상태에 빠져서, 스스로 자신을 포기하여 돌아보지 아니함",
@@ -20096,7 +20070,7 @@
 	},
 	{
 		"id": "1542",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "자화자찬",
 		"chineseCharacters": "自畵自讚",
 		"description": "자기가 그린 그림을 칭찬한다는 말로 자기의 행위를 칭찬함\n= 모수자천(毛遂自薦)",
@@ -20135,7 +20109,7 @@
 	},
 	{
 		"id": "1545",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "작심삼일",
 		"chineseCharacters": "作心三日",
 		"description": "한번 결심한 것이 사흘을 가지 않음. 곧 결심이 굳지 못함",
@@ -20201,7 +20175,7 @@
 	},
 	{
 		"id": "1550",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "장삼이사",
 		"chineseCharacters": "張三李四",
 		"description": "장씨(張氏)의 삼남(三男)과 이씨(李氏)의 사남(四男)이란 뜻으로 평범한 사람을 가리킴",
@@ -20240,7 +20214,7 @@
 	},
 	{
 		"id": "1553",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "장주지몽",
 		"chineseCharacters": "莊周之夢",
 		"description": "장주라는 사람이 꿈에 나비가 되었는데, 실제 자신이 누구인지 알지 못했다는 고사\n= 호접지몽(胡蝶之夢)",
@@ -20279,7 +20253,7 @@
 	},
 	{
 		"id": "1556",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "재자가인",
 		"chineseCharacters": "才子佳人",
 		"description": "재주 있는 젊은이와 아름다운 여자",
@@ -20331,7 +20305,7 @@
 	},
 	{
 		"id": "1560",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "적반하장",
 		"chineseCharacters": "賊反荷杖",
 		"description": "도둑이 도리어 매를 든다는 뜻으로 잘못한 사람이 도리어 잘한 사람을 나무라는 모습",
@@ -20357,7 +20331,7 @@
 	},
 	{
 		"id": "1562",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "적수공권",
 		"chineseCharacters": "赤手空拳",
 		"description": "맨손과 맨주먹, 즉 아무 것도 가진 것이 없다는 뜻",
@@ -20487,7 +20461,7 @@
 	},
 	{
 		"id": "1572",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "전도양양",
 		"chineseCharacters": "前途洋洋",
 		"description": "앞길이 바다와 같음. 장래가 매우 밝음",
@@ -20500,7 +20474,7 @@
 	},
 	{
 		"id": "1573",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "전도요원",
 		"chineseCharacters": "前道遼遠",
 		"description": "앞으로 갈 길이 아득히 멂. 목적한 바에 이르기에는 아직도 멂",
@@ -20513,7 +20487,7 @@
 	},
 	{
 		"id": "1574",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "전무후무",
 		"chineseCharacters": "前無後無",
 		"description": "그전에도 없었고 앞으로도 없음\n= 공전절후(空前絶後)",
@@ -20526,7 +20500,7 @@
 	},
 	{
 		"id": "1575",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "전원장무",
 		"chineseCharacters": "田園將蕪",
 		"description": "논밭과 동산이 황무지가 됨",
@@ -20539,7 +20513,7 @@
 	},
 	{
 		"id": "1576",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "전인미답",
 		"chineseCharacters": "前人未踏",
 		"description": "① 이제까지의 세상 사람 그 누구도 가보지 못함\n② 이제까지의 세상 사람이 아무도 해보지 못함",
@@ -20552,7 +20526,7 @@
 	},
 	{
 		"id": "1577",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "전전긍긍",
 		"chineseCharacters": "戰戰兢兢",
 		"description": "매우 두려워하여 겁내는 모양",
@@ -20565,7 +20539,7 @@
 	},
 	{
 		"id": "1578",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "전전반측",
 		"chineseCharacters": "輾轉反側",
 		"description": "이리저리 뒤척이며 잠을 이루지 못함\n= 전전불매(輾轉不寐), 경경고침(耿耿高枕)",
@@ -20578,7 +20552,7 @@
 	},
 	{
 		"id": "1579",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "전정만리",
 		"chineseCharacters": "前程萬里",
 		"description": "나이가 젊어 장래가 유망함. 전정구만리(前程九萬里) 앞 길이 구만리다",
@@ -20606,7 +20580,7 @@
 	},
 	{
 		"id": "1581",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "전화위복",
 		"chineseCharacters": "轉禍爲福",
 		"description": "화를 바꾸어 복으로 한다 궂은 일을 당하였을 때 그것을 잘 처리하여 좋은 일이 되게 하는 것",
@@ -20671,7 +20645,7 @@
 	},
 	{
 		"id": "1586",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "절장보단",
 		"chineseCharacters": "絶長補短",
 		"description": "긴 것을 잘라서 짧은 것에 보탠다는 뜻으로, 알맞게 맞춘다는 뜻. 장점으로 단점을 보충함",
@@ -20684,7 +20658,7 @@
 	},
 	{
 		"id": "1587",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "절차탁마",
 		"chineseCharacters": "切嗟琢磨",
 		"description": "학문과 덕행을 닦음을 가리키는 말",
@@ -20697,7 +20671,7 @@
 	},
 	{
 		"id": "1588",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "절치부심",
 		"chineseCharacters": "切齒腐心",
 		"description": "몹시 분하여 이를 갈면서 속을 썩임",
@@ -20723,7 +20697,7 @@
 	},
 	{
 		"id": "1590",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "점입가경",
 		"chineseCharacters": "漸入佳境",
 		"description": "점점 더 재미있는 경지로 들어감",
@@ -20760,7 +20734,7 @@
 	},
 	{
 		"id": "1593",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "정문일침",
 		"chineseCharacters": "頂門一鍼",
 		"description": "정수리에 침을 준다. 잘못의 급소를 찔러 충고하는 것",
@@ -20842,7 +20816,7 @@
 	},
 	{
 		"id": "1599",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "정저지와",
 		"chineseCharacters": "井底之蛙",
 		"description": "우물 안 개구리, 견문이 좁고 세상 물정을 모름\n= 정중지와(井中之蛙), 관견(管見)",
@@ -20933,7 +20907,7 @@
 	},
 	{
 		"id": "1606",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "조강지처",
 		"chineseCharacters": "糟糠之妻",
 		"description": "가난을 참고 고생을 같이하며 남편을 섬긴 아내",
@@ -20959,7 +20933,7 @@
 	},
 	{
 		"id": "1608",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "조령모개",
 		"chineseCharacters": "朝令暮改",
 		"description": "법령을 자꾸 바꿔서 종잡을 수 없음을 비유하는 말",
@@ -21001,7 +20975,7 @@
 	},
 	{
 		"id": "1611",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "조변석개",
 		"chineseCharacters": "朝變夕改",
 		"description": "아침에 고치고 저녁에 또 고침 일을 자주 뜯어고침",
@@ -21014,7 +20988,7 @@
 	},
 	{
 		"id": "1612",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "조불려석",
 		"chineseCharacters": "朝不慮夕",
 		"description": "아침에 저녁 일을 헤아리지 못함, 당장에 걱정할 뿐이고 바로 그다음을 돌아볼 겨를이 없음\n= 조불급석(朝不及夕)",
@@ -21027,7 +21001,7 @@
 	},
 	{
 		"id": "1613",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "조삼모사",
 		"chineseCharacters": "朝三募四",
 		"description": "① 간사한 꾀로 사람을 속여 희롱함\n② 눈앞에 당장 나타나는 차별만을 알고 그 결과가 같음을 모름",
@@ -21090,7 +21064,7 @@
 	},
 	{
 		"id": "1618",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "조족지혈",
 		"chineseCharacters": "鳥足之血",
 		"description": "새 발의 피라는 뜻으로 물건의 적음을 나타내는 말",
@@ -21167,7 +21141,7 @@
 	},
 	{
 		"id": "1624",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "좌고우면",
 		"chineseCharacters": "左顧右眄",
 		"description": "좌우를 자주 둘러본다. 무슨 일에 얼른 결정을 짓지 못함을 비유함",
@@ -21204,7 +21178,7 @@
 	},
 	{
 		"id": "1627",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "좌불안석",
 		"chineseCharacters": "坐不安席",
 		"description": "불안·초조·공포 따위로 한자리에 진득하게 앉아 있지 못함",
@@ -21217,7 +21191,7 @@
 	},
 	{
 		"id": "1628",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "좌정관천",
 		"chineseCharacters": "坐井觀天",
 		"description": "우물 안 개구리 세상 물정을 너무 모름\n= 이관규천(以管窺天), 정저지와(井底之蛙), 정중지와(井中之蛙), 감정지와(坎井之蛙)",
@@ -21230,7 +21204,7 @@
 	},
 	{
 		"id": "1629",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "좌지우지",
 		"chineseCharacters": "左之右之",
 		"description": "① 제 마음대로 자유롭게 처리함\n② 남을 마음대로 지휘함",
@@ -21243,7 +21217,7 @@
 	},
 	{
 		"id": "1630",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "좌충우돌",
 		"chineseCharacters": "左衝右突",
 		"description": "이리저리 마구 치고받음",
@@ -21269,7 +21243,7 @@
 	},
 	{
 		"id": "1632",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "주객전도",
 		"chineseCharacters": "主客顚倒",
 		"description": "주인은 손님처럼 손님은 주인처럼 행동함, 입장이 뒤바뀐 것",
@@ -21282,7 +21256,7 @@
 	},
 	{
 		"id": "1633",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "주경야독",
 		"chineseCharacters": "晝耕夜讀",
 		"description": "낮에는 밭 갈고 밤에는 글 읽음",
@@ -21322,7 +21296,7 @@
 	},
 	{
 		"id": "1636",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "주마가편",
 		"chineseCharacters": "走馬加鞭",
 		"description": "달리는 말에 채찍을 더한다는 뜻으로 잘하는 사람에게 더 잘하도록 함",
@@ -21335,7 +21309,7 @@
 	},
 	{
 		"id": "1637",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "주마간산",
 		"chineseCharacters": "走馬看山",
 		"description": "말을 달리면서 산을 본다는 말로 바빠서 자세히 보지 못하고 지나침을 뜻함",
@@ -21360,7 +21334,7 @@
 	},
 	{
 		"id": "1639",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "주여장천",
 		"chineseCharacters": "晝夜長川",
 		"description": "밤낮으로 쉬지 않고 늘 잇달음",
@@ -21373,7 +21347,7 @@
 	},
 	{
 		"id": "1640",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "죽장망혜",
 		"chineseCharacters": "竹杖芒鞋",
 		"description": "가장 간단한 보행이나 여행의 차림",
@@ -21386,7 +21360,7 @@
 	},
 	{
 		"id": "1641",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "주지육림",
 		"chineseCharacters": "酒池肉林",
 		"description": "술은 못을 이루고 고기는 숲을 이룬다는 뜻으로 호화를 극한 굉장한 술잔치로 호화로운 생활을 뜻함",
@@ -21412,7 +21386,7 @@
 	},
 	{
 		"id": "1643",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "죽마고우",
 		"chineseCharacters": "竹馬故友",
 		"description": "죽마를 타고 놀던 벗, 곧 어릴 때 같이 놀던 친한 친구",
@@ -21438,7 +21412,7 @@
 	},
 	{
 		"id": "1645",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "죽장망혜",
 		"chineseCharacters": "竹杖芒鞋",
 		"description": "① 대지팡이와 짚신\n② 가장 간단한 보행이나 여행의 차림",
@@ -21451,7 +21425,7 @@
 	},
 	{
 		"id": "1646",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "중과부적",
 		"chineseCharacters": "衆寡不敵",
 		"description": "적은 수효로는 많은 수효를 대적하지 못한다는 뜻",
@@ -21464,7 +21438,7 @@
 	},
 	{
 		"id": "1647",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "중구난방",
 		"chineseCharacters": "衆口難防",
 		"description": "뭇사람의 말을 이루 다 막기는 어렵다는 뜻",
@@ -21516,7 +21490,7 @@
 	},
 	{
 		"id": "1651",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "중언부언",
 		"chineseCharacters": "重言復言",
 		"description": "한 말을 자꾸 되풀이함",
@@ -21658,7 +21632,7 @@
 	},
 	{
 		"id": "1663",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지리멸렬",
 		"chineseCharacters": "支離滅裂",
 		"description": "이리저리 체계가 없이 흩어져 갈피를 잡을 수 없음",
@@ -21684,7 +21658,7 @@
 	},
 	{
 		"id": "1665",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "지록위마",
 		"chineseCharacters": "地鹿爲馬",
 		"description": "사슴을 가리켜 말이라고 우긴다는 뜻으로, 위압으로 남을 바보로 만들거나 그릇된 일로 남을 속여 죄에 빠뜨리는 일을 말함. 중국 진나라의 조고(趙高)가 이세 황제(二世皇帝)에게 사슴을 말이라고 속여 바친 일에서 유래하는 고사로 윗사람을 농락하여 권세를 마음대로 함을 뜻함",
@@ -21697,7 +21671,7 @@
 	},
 	{
 		"id": "1666",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지리멸렬",
 		"chineseCharacters": "支離滅裂",
 		"description": "갈가리 흩어지고 찢기어 갈피를 잡을 수 없음",
@@ -21710,7 +21684,7 @@
 	},
 	{
 		"id": "1667",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "지성감천",
 		"chineseCharacters": "至誠感天",
 		"description": "지극한 정성에 하늘이 감동함",
@@ -21781,7 +21755,7 @@
 	},
 	{
 		"id": "1672",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "지음",
 		"chineseCharacters": "知音",
 		"description": "음악의 고조를 잘 이해하는 사람이라는 뜻, 마음이 서로 잘 통하는 친한 친구를 이르는 말\n= 백아절현(伯牙絶絃)",
@@ -21818,7 +21792,7 @@
 	},
 	{
 		"id": "1675",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지족불욕",
 		"chineseCharacters": "知足不辱",
 		"description": "모든 일에 분수를 알고 만족하게 생각하면 모욕을 받지 않는다",
@@ -21831,7 +21805,7 @@
 	},
 	{
 		"id": "1676",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지족지부",
 		"chineseCharacters": "知足知富",
 		"description": "족한 것을 알고 현재에 만족하는 사람은 부자라는 뜻\n= 지족자부(知足者富)",
@@ -21857,7 +21831,7 @@
 	},
 	{
 		"id": "1678",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지피지기",
 		"chineseCharacters": "知彼知己",
 		"description": "저쪽 형편도 알고 자기네 형편도 앎",
@@ -21896,7 +21870,7 @@
 	},
 	{
 		"id": "1681",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "지호지간",
 		"chineseCharacters": "指呼之間",
 		"description": "손짓해 부를 만한 가까운 거리\n= 지척지간(咫尺之間)",
@@ -21909,7 +21883,7 @@
 	},
 	{
 		"id": "1682",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "진선진미",
 		"chineseCharacters": "盡善盡美",
 		"description": "완전무결함",
@@ -21922,7 +21896,7 @@
 	},
 	{
 		"id": "1683",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "진수성찬",
 		"chineseCharacters": "珍羞盛饌",
 		"description": "맛이 좋은 음식으로 많이 잘 차린 것을 뜻함",
@@ -21935,7 +21909,7 @@
 	},
 	{
 		"id": "1684",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "진인사대천명",
 		"chineseCharacters": "盡人事待天命",
 		"description": "할 수 있는 데까지 노력을 다하고 천명을 기다림",
@@ -21950,7 +21924,7 @@
 	},
 	{
 		"id": "1685",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "진적위산",
 		"chineseCharacters": "塵積爲山",
 		"description": "티끌이 모여 태산을 이룸",
@@ -21963,7 +21937,7 @@
 	},
 	{
 		"id": "1686",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "진퇴양난",
 		"chineseCharacters": "進退兩難",
 		"description": "앞뒤로 물러날 수 없이 꼼짝할 수 없는 궁지에 몰린 경우\n= 진퇴유곡(進退維谷)",
@@ -21976,7 +21950,7 @@
 	},
 	{
 		"id": "1687",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "진퇴유곡",
 		"chineseCharacters": "進退維谷",
 		"description": "가지도 오지도 못할 곤경에 빠짐",
@@ -22002,7 +21976,7 @@
 	},
 	{
 		"id": "1689",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "질축배척",
 		"chineseCharacters": "嫉逐排斥",
 		"description": "시기하고 미워하여 물리침",
@@ -22015,7 +21989,7 @@
 	},
 	{
 		"id": "1690",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "차일피일",
 		"chineseCharacters": "此日彼日",
 		"description": "일을 핑계하고 자꾸 기일을 늦춤",
@@ -22134,7 +22108,7 @@
 	},
 	{
 		"id": "1699",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "창해상전",
 		"chineseCharacters": "滄海桑田",
 		"description": "푸른 바다가 뽕밭으로 변한다, 곧 덧없는 세상 또는 세상이 변함\n= 상전벽해(桑田碧海)",
@@ -22160,7 +22134,7 @@
 	},
 	{
 		"id": "1701",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "창해일속",
 		"chineseCharacters": "滄海一粟",
 		"description": "넓은 바다에 떠 있는 한 알의 좁쌀 아주 큰 물건 속의 아주 작은 물건\n= 구우일모(九牛一毛)",
@@ -22251,7 +22225,7 @@
 	},
 	{
 		"id": "1708",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천려일득",
 		"chineseCharacters": "千慮一得",
 		"description": "바보도 한 가지쯤은 좋은 생각이 있다는 뜻",
@@ -22264,7 +22238,7 @@
 	},
 	{
 		"id": "1709",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "천려일실",
 		"chineseCharacters": "千慮一失",
 		"description": "지혜로운 사람도 많은 생각 가운데는 미처 생각하지 못하는 것이 있음",
@@ -22334,7 +22308,7 @@
 	},
 	{
 		"id": "1714",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "천방지축",
 		"chineseCharacters": "天方地軸",
 		"description": "① 너무 바빠서 두서를 잡지 못하고 허둥대는 모습\n② 어리석은 사람이 갈 바를 몰라 두리번거리는 모습\n③ 분별없이 함부로 덤비는 상태",
@@ -22418,7 +22392,7 @@
 	},
 	{
 		"id": "1720",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천석고황",
 		"chineseCharacters": "泉石膏肓",
 		"description": "산수를 즐기는 것이 정도에 지나쳐 불치의 고질 같다는 뜻, 벼슬길에 나서지 아니함 \n= 연하고질(煙霞痼疾)",
@@ -22431,7 +22405,7 @@
 	},
 	{
 		"id": "1721",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천신만고",
 		"chineseCharacters": "千辛萬苦",
 		"description": "온갖 고생 무진 애를 씀",
@@ -22444,7 +22418,7 @@
 	},
 	{
 		"id": "1722",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천우신조",
 		"chineseCharacters": "天佑神助",
 		"description": "하늘이 돕고 신이 도움",
@@ -22470,7 +22444,7 @@
 	},
 	{
 		"id": "1724",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천의무봉",
 		"chineseCharacters": "千衣無縫",
 		"description": "천사의 옷은 기울 데가 없다는 말로 곧 문장이 훌륭하여 손댈 곳이 없을 만큼 잘 되었음을 가리키는 말",
@@ -22483,7 +22457,7 @@
 	},
 	{
 		"id": "1725",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "천인공노",
 		"chineseCharacters": "天人共怒",
 		"description": "하늘과 땅이 함께 분노한다. 도저히 용서 못 함을 비유",
@@ -22496,7 +22470,7 @@
 	},
 	{
 		"id": "1726",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "천인단애",
 		"chineseCharacters": "千仞斷崖",
 		"description": "천 길이나 되는 깎아지른 듯한 벼랑",
@@ -22509,7 +22483,7 @@
 	},
 	{
 		"id": "1727",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "천자만홍",
 		"chineseCharacters": "千紫萬紅",
 		"description": "가지가지 빛깔로 만발한 꽃",
@@ -22522,7 +22496,7 @@
 	},
 	{
 		"id": "1728",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천재일우",
 		"chineseCharacters": "千載一遇",
 		"description": "천 년에 한번 만나는 아주 드문 좋은 기회\n= 천세일시(千歲一時)",
@@ -22600,7 +22574,7 @@
 	},
 	{
 		"id": "1734",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천편일률",
 		"chineseCharacters": "千篇一律",
 		"description": "변함없이 모든 사물이 똑같음",
@@ -22652,7 +22626,7 @@
 	},
 	{
 		"id": "1738",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "철두철미",
 		"chineseCharacters": "徹頭徹尾",
 		"description": "머리에서 꼬리까지 투철함, 즉 처음부터 끝까지 투철함",
@@ -22729,7 +22703,7 @@
 	},
 	{
 		"id": "1744",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "철중쟁쟁",
 		"chineseCharacters": "鐵中錚錚",
 		"description": "같은 또래에서 뛰어난 사람을 이르는 말",
@@ -22806,7 +22780,7 @@
 	},
 	{
 		"id": "1750",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "청운지지",
 		"chineseCharacters": "靑雲之志",
 		"description": "뜻이 고결함, 보통이 아닌 큰 뜻, 입신출세에 대한 야망, 출세하고자 하는 뜻",
@@ -22832,7 +22806,7 @@
 	},
 	{
 		"id": "1752",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "청천벽력",
 		"chineseCharacters": "靑天霹靂",
 		"description": "맑게 갠 하늘에서 치는 벼락, 곧 뜻밖에 생긴 변을 일컫는 말",
@@ -22858,7 +22832,7 @@
 	},
 	{
 		"id": "1754",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "청출어람",
 		"chineseCharacters": "靑出於藍",
 		"description": "청색은 쪽 풀에서 뽑았으나 그 색이 쪽 풀보다 더 푸르다. 제자가 스승보다 낫다는 뜻",
@@ -22884,7 +22858,7 @@
 	},
 	{
 		"id": "1756",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "초동급부",
 		"chineseCharacters": "樵童汲婦",
 		"description": "나무하는 아이와 물긷는 아낙네 보통사람",
@@ -22921,7 +22895,7 @@
 	},
 	{
 		"id": "1759",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "초록동색",
 		"chineseCharacters": "草綠同色",
 		"description": "서로 같은 처지나 같은 부류의 사람들끼리 함께 함을 이름\n= 유유상종(類類相從)",
@@ -22934,7 +22908,7 @@
 	},
 	{
 		"id": "1760",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "초미지급",
 		"chineseCharacters": "焦眉之急",
 		"description": "눈썹이 타게 될 만큼 위급한 상태, 그대로 둘 수 없는 매우 다급한 일이나 경우를 뜻함\n= 소미지급(燒眉之急)",
@@ -22974,7 +22948,7 @@
 	},
 	{
 		"id": "1763",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "초지일관",
 		"chineseCharacters": "初志一貫",
 		"description": "처음 품은 뜻을 한결같이 꿰뚫음",
@@ -22987,7 +22961,7 @@
 	},
 	{
 		"id": "1764",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "촌철살인",
 		"chineseCharacters": "寸鐵殺人",
 		"description": "간단한 말로 사물의 가장 요긴한 데를 찔러 듣는 사람을 감동시킴",
@@ -23063,7 +23037,7 @@
 	},
 	{
 		"id": "1770",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "추원보본",
 		"chineseCharacters": "追遠報本",
 		"description": "조상의 덕을 추모하여 제사를 지내고, 자기의 태어난 근본을 잊지 않고 은혜를 갚음",
@@ -23184,7 +23158,7 @@
 	},
 	{
 		"id": "1779",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "춘추필법",
 		"chineseCharacters": "春秋筆法",
 		"description": "① 5경의 하나인 춘추와 같이 비판의 태도가 썩 엄정함을 이르는 말\n② 대의명분을 밝히어 세우는 사실의 논법",
@@ -23197,7 +23171,7 @@
 	},
 	{
 		"id": "1780",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "춘치자명",
 		"chineseCharacters": "春雉自鳴",
 		"description": "봄철의 꿩이 스스로 운다. 시키거나 요구하지 아니하여도 제풀에 하는 것",
@@ -23210,7 +23184,7 @@
 	},
 	{
 		"id": "1781",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "출몰무쌍",
 		"chineseCharacters": "出沒無雙",
 		"description": "듣고 남이 비할 데 없이 잦은 것",
@@ -23236,7 +23210,7 @@
 	},
 	{
 		"id": "1783",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "출장입상",
 		"chineseCharacters": "出將入相",
 		"description": "문무가 다 갖추어진 사람",
@@ -23283,7 +23257,7 @@
 	},
 	{
 		"id": "1786",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "충언역이",
 		"chineseCharacters": "忠言逆耳",
 		"description": "충고하는 말은 귀에 거슬린다는 뜻",
@@ -23322,7 +23296,7 @@
 	},
 	{
 		"id": "1789",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "취생몽사",
 		"chineseCharacters": "醉生夢死",
 		"description": "아무 뜻과 이룬 일도 없이 한평생을 흐리멍덩하게 살아감",
@@ -23350,7 +23324,7 @@
 	},
 	{
 		"id": "1791",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "측은지심",
 		"chineseCharacters": "惻隱之心",
 		"description": "불쌍히 여기는 마음",
@@ -23403,7 +23377,7 @@
 	},
 	{
 		"id": "1795",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "치지도외",
 		"chineseCharacters": "置之度外",
 		"description": "내버려두고 상대하지 않음",
@@ -23416,7 +23390,7 @@
 	},
 	{
 		"id": "1796",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "칠거지악",
 		"chineseCharacters": "七去之惡",
 		"description": "아내를 내쫓을 일곱 가지 조건, 시부모에 불순, 자식 못 나음, 행실, 질투, 병, 말썽, 도둑질",
@@ -23442,7 +23416,7 @@
 	},
 	{
 		"id": "1798",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "칠전팔기",
 		"chineseCharacters": "七顚八起",
 		"description": "일곱 번 넘어졌다가 여덟 번째 일어남 여러 번 실패해도 굽히지 않고 분투함을 일컫는 말",
@@ -23455,7 +23429,7 @@
 	},
 	{
 		"id": "1799",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "칠전팔도",
 		"chineseCharacters": "七顚八倒",
 		"description": "일곱 번 넘어지고 여덟 번째 또 넘어짐. 어려운 고비를 많이 겪음",
@@ -23468,7 +23442,7 @@
 	},
 	{
 		"id": "1800",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "칠종칠금",
 		"chineseCharacters": "七縱七擒",
 		"description": "제갈공명의 전술로 일곱 번 놓아주고 일곱 번 잡는다는 말로 자유자재로운 전술",
@@ -23509,7 +23483,7 @@
 	},
 	{
 		"id": "1803",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "침소봉대",
 		"chineseCharacters": "針小棒大",
 		"description": "바늘을 몽둥이라고 말하듯 과장해서 말하는 것",
@@ -23535,7 +23509,7 @@
 	},
 	{
 		"id": "1805",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "쾌도난마",
 		"chineseCharacters": "快刀亂馬",
 		"description": "어지럽게 뒤얽힌 일을 명쾌하게 정리함",
@@ -23559,7 +23533,7 @@
 	},
 	{
 		"id": "1807",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "타산지석",
 		"chineseCharacters": "他山之石",
 		"description": "다른 산에서 난 나쁜 돌도 자기의 구슬을 가는 데에 소용된다. 다른 사람의 하찮은 언행일지라도 자기의 지덕을 연마하는 데에 도움이 된다는 말",
@@ -23572,7 +23546,7 @@
 	},
 	{
 		"id": "1808",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "타상하설",
 		"chineseCharacters": "他尙何說",
 		"description": "한 가지 일을 보면 다른 일도 알 수 있다는 말",
@@ -23585,7 +23559,7 @@
 	},
 	{
 		"id": "1809",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "탁상공론",
 		"chineseCharacters": "卓上空論",
 		"description": "실현성이 없는 허황한 이론",
@@ -23637,7 +23611,7 @@
 	},
 	{
 		"id": "1813",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "태강즉절",
 		"chineseCharacters": "太剛則折",
 		"description": "너무 강하면 부러지기 쉽다는 말",
@@ -23661,7 +23635,7 @@
 	},
 	{
 		"id": "1815",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "태산북두",
 		"chineseCharacters": "泰山北斗",
 		"description": "태산과 북두칠성을 여러 사람이 우러러보듯이 남에게 존경받는 뛰어난 존재 → 태두(泰斗) 줄인 말",
@@ -23674,7 +23648,7 @@
 	},
 	{
 		"id": "1816",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "태연자약",
 		"chineseCharacters": "泰然自若",
 		"description": "침착하여 조금도 마음이 동요되지 아니하는 모양",
@@ -23687,7 +23661,7 @@
 	},
 	{
 		"id": "1817",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "태평연월",
 		"chineseCharacters": "太平烟月",
 		"description": "세상이 평화롭고 안락한 때",
@@ -23713,7 +23687,7 @@
 	},
 	{
 		"id": "1819",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "토사구팽",
 		"chineseCharacters": "兎死狗烹",
 		"description": "토끼가 죽으면 사냥개를 삶는다. 일이 있을 때는 실컷 부려 먹다가 일이 끝나면 돌보지 않고 학대한다. → 교토사 주구팽(狡兎死 走狗烹)의 준말",
@@ -23726,7 +23700,7 @@
 	},
 	{
 		"id": "1821",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "토영삼굴",
 		"chineseCharacters": "兎營三窟",
 		"description": "토끼 집은 입구가 세 개라는 말 자신의 안전을 위하여 미리 몇 가지 술책을 마련함",
@@ -23739,7 +23713,7 @@
 	},
 	{
 		"id": "1822",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "토진간담",
 		"chineseCharacters": "吐盡肝膽",
 		"description": "솔직한 심정을 속임 없이 모두 말함",
@@ -23752,7 +23726,7 @@
 	},
 	{
 		"id": "1823",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "토사호비",
 		"chineseCharacters": "兎死狐悲",
 		"description": "토끼의 죽음을 여우가 슬퍼한다는 뜻으로, 같은 무리의 불행을 슬퍼한다는 말",
@@ -23815,7 +23789,7 @@
 	},
 	{
 		"id": "1828",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "파란만장",
 		"chineseCharacters": "波瀾萬丈",
 		"description": "일의 진행에 변화가 심함",
@@ -23828,7 +23802,7 @@
 	},
 	{
 		"id": "1829",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "파란중첩",
 		"chineseCharacters": "波瀾重疊",
 		"description": "일의 진행에서 온갖 변화나 난관이 많음",
@@ -23854,7 +23828,7 @@
 	},
 	{
 		"id": "1831",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "파사현정",
 		"chineseCharacters": "破邪顯正",
 		"description": "사한 것을 버리고 정도를 드러냄",
@@ -23899,7 +23873,7 @@
 	},
 	{
 		"id": "1834",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "파죽지세",
 		"chineseCharacters": "破竹之勢",
 		"description": "대쪽을 쪼개는 듯한 거침없는 형세",
@@ -23924,7 +23898,7 @@
 	},
 	{
 		"id": "1836",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "팔방미인",
 		"chineseCharacters": "八方美人",
 		"description": "어느 모로 보아도 아름다운 미인 여러 방면의 일에 능통한 사람을 가리킴",
@@ -24011,7 +23985,7 @@
 	},
 	{
 		"id": "1843",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "폐포파립",
 		"chineseCharacters": "蔽袍破笠",
 		"description": "해진 옷과 부서진 갓, 빈궁하여 매우 초라한 모습",
@@ -24076,7 +24050,7 @@
 	},
 	{
 		"id": "1848",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "포복절도",
 		"chineseCharacters": "抱腹絶倒",
 		"description": "배를 안고 몸을 가누지 못할 정도로 몹시 웃음",
@@ -24152,7 +24126,7 @@
 	},
 	{
 		"id": "1854",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "표리부동",
 		"chineseCharacters": "表裏不同",
 		"description": "겉과 속이 다름",
@@ -24219,7 +24193,7 @@
 	},
 	{
 		"id": "1859",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "풍수지탄",
 		"chineseCharacters": "風樹之嘆",
 		"description": "부모가 돌아가신 뒤에 효도 못 한 것을 후회함",
@@ -24232,7 +24206,7 @@
 	},
 	{
 		"id": "1860",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "풍월주인",
 		"chineseCharacters": "風月主人",
 		"description": "자연 풍경을 벗하여 노는 한가한 사람",
@@ -24258,7 +24232,7 @@
 	},
 	{
 		"id": "1862",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "풍전등화",
 		"chineseCharacters": "風前燈火",
 		"description": "바람 앞에 켠 등불 매우 위급한 경우에 놓여 있음을 가리키는 말",
@@ -24271,7 +24245,7 @@
 	},
 	{
 		"id": "1863",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "풍찬노숙",
 		"chineseCharacters": "風餐露宿",
 		"description": "바람과 이슬을 무릅쓰고 한데서 먹고 잠, 큰일을 이루려는 사람의 고초를 겪는 모양",
@@ -24297,7 +24271,7 @@
 	},
 	{
 		"id": "1865",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "필부필부",
 		"chineseCharacters": "匹夫匹婦",
 		"description": "평범한 남자와 평범한 여자",
@@ -24310,7 +24284,7 @@
 	},
 	{
 		"id": "1866",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "필부지용",
 		"chineseCharacters": "匹夫之勇",
 		"description": "좁은 소견을 가지고 어떤 계획이나 방법도 없이 혈기만을 믿고 마구 날뛰는 행동을 뜻함",
@@ -24323,7 +24297,7 @@
 	},
 	{
 		"id": "1867",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "필유곡절",
 		"chineseCharacters": "必有曲折",
 		"description": "반드시 어떠한 까닭이 있음",
@@ -24349,7 +24323,7 @@
 	},
 	{
 		"id": "1869",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "하로동선",
 		"chineseCharacters": "夏爐冬扇",
 		"description": "여름의 화로와 겨울의 부채라는 뜻으로 쓸모없는 재능을 말함",
@@ -24362,7 +24336,7 @@
 	},
 	{
 		"id": "1870",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "하석상대",
 		"chineseCharacters": "下石上臺",
 		"description": "아랫돌 빼서 윗돌 괴고 윗돌 빼서 아랫돌 괴기, 임시변통으로 이리저리 둘러맞춤",
@@ -24452,7 +24426,7 @@
 	},
 	{
 		"id": "1877",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "학수고대",
 		"chineseCharacters": "鶴首苦待",
 		"description": "학의 목처럼 목을 길게 늘여 몹시 기다린다는 뜻",
@@ -24465,7 +24439,7 @@
 	},
 	{
 		"id": "1878",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "학여불급",
 		"chineseCharacters": "學如不及",
 		"description": "학업을 언제나 모자란 듯이 여김",
@@ -24532,7 +24506,7 @@
 	},
 	{
 		"id": "1883",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "한단지몽",
 		"chineseCharacters": "邯鄲之夢",
 		"description": "한단에서 여옹이 낮잠을 자면서 꾼 꿈에서 유래한 말로, 사람의 일생에서 부귀란 덧없다는 뜻 \n= 황량몽(黃梁夢), 일장춘몽(一場春夢), 남가지몽(南柯之夢)",
@@ -24545,7 +24519,7 @@
 	},
 	{
 		"id": "1884",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "한단지보",
 		"chineseCharacters": "邯鄲之步",
 		"description": "자기 것을 잃음을 비유, 자기의 본분을 잊고 함부로 남의 흉내를 내면 두 가지를 다 잃음",
@@ -24598,7 +24572,7 @@
 	},
 	{
 		"id": "1888",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "한우충동",
 		"chineseCharacters": "汗牛充棟",
 		"description": "책을 실은 수레를 끄는 소가 흘리는 땀이 많다는 뜻으로, 책이 많다는 뜻",
@@ -24637,7 +24611,7 @@
 	},
 	{
 		"id": "1891",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "함구무언",
 		"chineseCharacters": "緘口無言",
 		"description": "입을 다물고 아무런 말이 없음\n= 함구불언(緘口不言)",
@@ -24650,7 +24624,7 @@
 	},
 	{
 		"id": "1892",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "함분축원",
 		"chineseCharacters": "含憤蓄怨",
 		"description": "분하고 원통한 마음을 품음",
@@ -24663,7 +24637,7 @@
 	},
 	{
 		"id": "1893",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "함포고복",
 		"chineseCharacters": "含哺鼓腹",
 		"description": "배불리 먹고 즐겁게 지냄\n= 태평성대(太平盛代), 고복격양(鼓腹擊壤)",
@@ -24689,7 +24663,7 @@
 	},
 	{
 		"id": "1895",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "함흥차사",
 		"chineseCharacters": "咸興差使",
 		"description": "심부름을 시킨 뒤 아무 소식이 없거나 회답이 더디 올 때 쓰는 말",
@@ -24728,7 +24702,7 @@
 	},
 	{
 		"id": "1898",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "해로동혈",
 		"chineseCharacters": "偕老同穴",
 		"description": "부부가 함께 늙고, 죽어서는 한 곳에 묻힘, 곧 생사를 같이하는 부부의 사랑 맹세",
@@ -24793,7 +24767,7 @@
 	},
 	{
 		"id": "1903",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "허례허식",
 		"chineseCharacters": "虛禮虛飾",
 		"description": "예절, 법식 등을 겉으로만 꾸며 번드레하게 하는 일",
@@ -24806,7 +24780,7 @@
 	},
 	{
 		"id": "1904",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "허무맹랑",
 		"chineseCharacters": "虛無孟浪",
 		"description": "터무니없이 허황되고 실상이 없음",
@@ -24819,7 +24793,7 @@
 	},
 	{
 		"id": "1905",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "허심탄회",
 		"chineseCharacters": "虛心坦懷",
 		"description": "마음속에 아무런 사념 없이 품은 생각을 터놓고 말함",
@@ -24832,7 +24806,7 @@
 	},
 	{
 		"id": "1906",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "허장성세",
 		"chineseCharacters": "虛張聲勢",
 		"description": "헛소문과 헛형세만 떠버림",
@@ -24936,7 +24910,7 @@
 	},
 	{
 		"id": "1914",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "형설지공",
 		"chineseCharacters": "螢雪之功",
 		"description": "중국 진나라의 차윤(車胤)이 반딧불로 글을 읽고 손강(孫康)은 눈(雪)의 빛으로 글을 읽었다는 고사에서 온 말로 고생해서 공부한 공이 드러남을 비유 \n= 형창설안(螢窓雪案)",
@@ -25001,7 +24975,7 @@
 	},
 	{
 		"id": "1919",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "호가호위",
 		"chineseCharacters": "狐假虎威",
 		"description": "여우가 범의 위세를 빌려 호기를 부린다는 뜻으로, 남의 세력을 빌어 위세를 부림",
@@ -25014,7 +24988,7 @@
 	},
 	{
 		"id": "1920",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "호구지책",
 		"chineseCharacters": "糊口之策",
 		"description": "① 살아갈 방법\n② 그저 먹고 살아가는 방책",
@@ -25053,7 +25027,7 @@
 	},
 	{
 		"id": "1923",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "호사다마",
 		"chineseCharacters": "好事多魔",
 		"description": "좋은 일에는 방해가 되는 일이 많다는 뜻",
@@ -25116,7 +25090,7 @@
 	},
 	{
 		"id": "1928",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "호시탐탐",
 		"chineseCharacters": "虎視眈眈",
 		"description": "날카로운 눈으로 가만히 기회를 노려보고 있는 모양",
@@ -25311,7 +25285,7 @@
 	},
 	{
 		"id": "1943",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "혼정신성",
 		"chineseCharacters": "昏定晨省",
 		"description": "자식이 부모님께 아침저녁으로 잠자리를 보살펴 드리는 것",
@@ -25350,7 +25324,7 @@
 	},
 	{
 		"id": "1946",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "홍로점설",
 		"chineseCharacters": "紅爐點雪",
 		"description": "홍로상점설(紅爐上點雪)의 준말,\n① 뜨거운 불길 위에 한 점 눈을 뿌리면 순식간에 녹듯이 사욕이나 의혹이 일시에 꺼져 없어지고 마음이 탁 트여 맑음을 일컫는 말\n② 크나큰 일에 작은 힘이 조금도 보람이 없음을 가리키는 말",
@@ -25453,7 +25427,7 @@
 	},
 	{
 		"id": "1954",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "화룡점정",
 		"chineseCharacters": "畵龍點睛",
 		"description": "용을 그려 놓고 마지막으로 눈을 그려 넣음. 즉 가장 긴요한 부분을 완성함",
@@ -25507,7 +25481,7 @@
 	},
 	{
 		"id": "1958",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "화사첨족",
 		"chineseCharacters": "畵蛇添足",
 		"description": "쓸데없는 군일을 하다가 도리어 실패함을 비유, 사족(蛇足)",
@@ -25669,7 +25643,7 @@
 	},
 	{
 		"id": "1970",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "환골탈태",
 		"chineseCharacters": "換骨奪胎",
 		"description": "① 얼굴이 이전보다 더 아름다워짐\n② 남의 문장을 본떴으나 형식을 바꿈",
@@ -25811,7 +25785,7 @@
 	},
 	{
 		"id": "1981",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "회자정리",
 		"chineseCharacters": "會者定離",
 		"description": "만나면 반드시 헤어지게 마련임\n= 생자필멸(生者必滅)↔ 거자필반(去者必返)",
@@ -25899,7 +25873,7 @@
 	},
 	{
 		"id": "1988",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "후안무치",
 		"chineseCharacters": "厚顔無恥",
 		"description": "낯가죽이 두꺼워 부끄러운 줄을 모름\n= 몰염치(沒廉恥), 파렴치(破廉恥)",
@@ -25951,7 +25925,7 @@
 	},
 	{
 		"id": "1992",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "흥진비래",
 		"chineseCharacters": "興盡悲來",
 		"description": "즐거운 일이 다하면 슬픔이 옴 흥망과 성쇠가 엇바뀜을 일컫는 말 ↔ 고진감래(苦盡甘來)",
@@ -26014,7 +25988,7 @@
 	},
 	{
 		"id": "1997",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "음풍영월",
 		"chineseCharacters": "吟風咏月",
 		"description": "맑은 바람을 읊조리고 밝은 달을 보며, 시를 짓고 흥취를 자아내어 즐겁게 함",
@@ -26027,7 +26001,7 @@
 	},
 	{
 		"id": "1998",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "과전불납리",
 		"chineseCharacters": "瓜田不納履",
 		"description": "남의 외밭에서 신을 고쳐 신으면 도둑의 누명을 쓴다는 말로서, 의심받을 만한 장소에서 의심을 받지 않도록 행동을 조심하라는 뜻",
@@ -26041,7 +26015,7 @@
 	},
 	{
 		"id": "1999",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "천양지판",
 		"chineseCharacters": "天壤之判",
 		"description": "하늘과 땅 사이와 같은 엄청난 차이",
@@ -26054,7 +26028,7 @@
 	},
 	{
 		"id": "2000",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "누란지세",
 		"chineseCharacters": "累卵之勢",
 		"description": "알을 쌓아 놓은 듯한 형세, 즉 매우 위태로운 형세",
@@ -26067,7 +26041,7 @@
 	},
 	{
 		"id": "2001",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "생자필멸",
 		"chineseCharacters": "生者必滅",
 		"description": "이 세상에 생명이 있는 것은 반드시 죽을 때가 있음",
@@ -26080,7 +26054,7 @@
 	},
 	{
 		"id": "2002",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "반포",
 		"chineseCharacters": "反哺",
 		"description": "자식이 커서 부모를 봉양함을 말함",
@@ -26091,7 +26065,7 @@
 	},
 	{
 		"id": "2003",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "수지오지자웅",
 		"chineseCharacters": "誰知烏之雌雄",
 		"description": "두 사람의 옳고 그름을 판단하기 어렵다는 뜻",
@@ -26106,7 +26080,7 @@
 	},
 	{
 		"id": "2004",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "일파만파",
 		"chineseCharacters": "一波萬波",
 		"description": "한 사건이 그 사건에서 그치지 않고 잇달아 많은 사건으로 번지는 것을 비유",
@@ -26119,7 +26093,7 @@
 	},
 	{
 		"id": "2005",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "계포일낙",
 		"chineseCharacters": "季布一諾",
 		"description": "한 번 한 약속은 틀림없이 지킴을 이름",
@@ -26132,7 +26106,7 @@
 	},
 	{
 		"id": "2006",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "단기지계",
 		"chineseCharacters": "斷機之戒",
 		"description": "학문을 중도에서 그만두는 것은 마치 짜던 베의 날을 끊어 버리는 것과 같이 아무런 공이 없다는 뜻",
@@ -26145,7 +26119,7 @@
 	},
 	{
 		"id": "2007",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "막무가내",
 		"chineseCharacters": "莫無可奈",
 		"description": "도무지 어찌할 수 없음, 고집이 너무 세거나 무조건 자기주장만 내세우는 경우",
@@ -26158,7 +26132,7 @@
 	},
 	{
 		"id": "2008",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "천양지차",
 		"chineseCharacters": "天壤之差",
 		"description": "하늘과 땅 사이만큼 엄청난 차이",
@@ -26171,7 +26145,7 @@
 	},
 	{
 		"id": "2009",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "토적성산",
 		"chineseCharacters": "土積成山",
 		"description": "한 줌 흙이 쌓여 산을 이룬다는 뜻으로, 적은 일이 크게 이루어짐을 일컫는 말",
@@ -26184,7 +26158,7 @@
 	},
 	{
 		"id": "2010",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "우여곡절",
 		"chineseCharacters": "迂餘曲折",
 		"description": "여러 가지로 뒤얽힌 복잡한 사정이나 변화",
@@ -26197,7 +26171,7 @@
 	},
 	{
 		"id": "2011",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "평지돌출",
 		"chineseCharacters": "平地突出",
 		"description": "변변하지 못한 집안에서 뛰어난 인물이 나옴을 비유하여 이르는 말",
@@ -26210,7 +26184,7 @@
 	},
 	{
 		"id": "2012",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "각골지통",
 		"chineseCharacters": "刻舟求劍",
 		"description": "사리에 어둡고 융통성이 없음",
@@ -26223,7 +26197,7 @@
 	},
 	{
 		"id": "2013",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "온고지신",
 		"chineseCharacters": "溫故知新",
 		"description": "옛것을 익혀 새것을 앎",
@@ -26236,7 +26210,7 @@
 	},
 	{
 		"id": "2014",
-		"category": 1,
+		"category": 2,
 		"koreanCharacters": "회자",
 		"chineseCharacters": "膾炙",
 		"description": "널리 많은 사람의 입에 많이 오름",
@@ -26247,7 +26221,7 @@
 	},
 	{
 		"id": "2015",
-		"category": 0,
+		"category": 1,
 		"koreanCharacters": "양자택일",
 		"chineseCharacters": "兩者擇一",
 		"description": "둘 중에서 하나를 선택함",
@@ -26260,7 +26234,7 @@
 	},
 	{
 		"id": "2016",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "갈이청정",
 		"chineseCharacters": "渴而穿井",
 		"description": "목이 말라야 우물을 팜",
@@ -26273,7 +26247,7 @@
 	},
 	{
 		"id": "2017",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "견마지로",
 		"chineseCharacters": "犬馬之勞",
 		"description": "① 자기의 노력을 낮추어 하는 말\n② 임금이나 나라에 충성을 다하는 노력",
@@ -26286,7 +26260,7 @@
 	},
 	{
 		"id": "2018",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "과여불급",
 		"chineseCharacters": "過如不及",
 		"description": "지나친 것은 미치지 못함과 같음",
@@ -26299,7 +26273,7 @@
 	},
 	{
 		"id": "2019",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "진인사대천명 ",
 		"chineseCharacters": "盡人事待天命",
 		"description": "사람으로서 할 수 있는 일을 다 하고 나서 천명을 기다림",
@@ -26314,7 +26288,7 @@
 	},
 	{
 		"id": "2020",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "능소능대",
 		"chineseCharacters": "能小能大",
 		"description": "모든 일에 두루 능함, 남들과 사귀는 수완이 아주 능함",
@@ -26327,7 +26301,7 @@
 	},
 	{
 		"id": "2021",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "맹모단기",
 		"chineseCharacters": "孟母斷機",
 		"description": "맹자의 어머니가 아들이 학업을 중단하고 돌아왔을 때, 짜던 베를 칼로 잘라서 훈계한 고사로 어머니의 엄격한 자녀 교육을 이름\n= 맹모삼천지교(孟母三遷之敎)",
@@ -26340,7 +26314,7 @@
 	},
 	{
 		"id": "2022",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "묵적지수",
 		"chineseCharacters": "墨翟之守",
 		"description": "묵적의 지킴이란 뜻, 준말 → 묵수(墨守)〈墨子, 公輸盤篇>\n① 자기 의견이나 주장을 굽히지 않고 끝까지 지킴\n② 융통성이 없음의 비유",
@@ -26353,7 +26327,7 @@
 	},
 	{
 		"id": "2023",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "미증유",
 		"chineseCharacters": "未曾有",
 		"description": "지금까지 아직 한 번도 있어 본 일이 없음",
@@ -26365,7 +26339,7 @@
 	},
 	{
 		"id": "2024",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "박학다식",
 		"chineseCharacters": "博學多識",
 		"description": "학문이 넓고 식견이 많음",
@@ -26378,7 +26352,7 @@
 	},
 	{
 		"id": "2025",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "십중팔구",
 		"chineseCharacters": "十中八九",
 		"description": "거의 예외 없이 그러할 것이라는 추측을 나타내는 말",
@@ -26391,7 +26365,7 @@
 	},
 	{
 		"id": "2026",
-		"category": 2,
+		"category": 3,
 		"koreanCharacters": "음지전양지변",
 		"chineseCharacters": "陰地轉陽地變",
 		"description": "음지도 양지로 될 때가 있음",

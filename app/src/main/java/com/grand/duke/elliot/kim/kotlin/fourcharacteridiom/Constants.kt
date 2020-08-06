@@ -1,9 +1,9 @@
 package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
 
 object Category {
-    const val BOTH = 0
-    const val SAT = 1
-    const val CIVIL_SERVICE_EXAMINATION = 2
+    const val BOTH = 1
+    const val SAT = 2
+    const val CIVIL_SERVICE_EXAMINATION = 3
 }
 
 object ApplicationPreferences {
