@@ -22,6 +22,11 @@ class RecyclerViewAdapter(private val activity: AppCompatActivity, private val i
 
     inner class ViewHolder(val view: View) : RecyclerView.ViewHolder(view)
 
+    override fun onAttachedToRecyclerView(recyclerView: RecyclerView) {
+        super.onAttachedToRecyclerView(recyclerView)
+        recyclerView.scheduleLayoutAnimation()
+    }
+
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
