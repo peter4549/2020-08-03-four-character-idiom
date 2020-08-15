@@ -28,6 +28,8 @@ import kotlin.collections.HashSet
 
 class MainActivity : AppCompatActivity() {
 
+    private val cardViewFragment = CardViewFragment()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -138,13 +140,13 @@ class MainActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .addToBackStack(null)
             .setCustomAnimations(
-                R.anim.anim_slide_in_from_left,
-                R.anim.anim_slide_out_to_left,
-                R.anim.anim_slide_in_from_right,
-                R.anim.anim_slide_out_to_right
+                R.anim.anim_slide_in_from_bottom,
+                R.anim.anim_slide_out_to_top,
+                R.anim.anim_slide_in_from_top,
+                R.anim.anim_slide_out_to_bottom
             ).replace(
                 R.id.frame_layout_scroll_view,
-                CardViewFragment(),
+                cardViewFragment,
                 TAG_CARD_VIEW_FRAGMENT
             ).commit()
     }
