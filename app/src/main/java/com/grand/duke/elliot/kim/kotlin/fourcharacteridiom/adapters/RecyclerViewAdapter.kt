@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.MainActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.R
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.SelectedPart
-import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.ViewPagerActivity
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.view_pager.ViewPagerActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.item_view.view.*
 import kotlinx.android.synthetic.main.item_view_search_result.view.*
@@ -20,7 +20,7 @@ class RecyclerViewAdapter(private val activity: AppCompatActivity, private val i
 
     private var filteredIdioms = idioms
 
-    inner class ViewHolder(val view: View) : RecyclerView.ViewHolder(view)
+    class ViewHolder(val view: View) : RecyclerView.ViewHolder(view)
 
     override fun onAttachedToRecyclerView(recyclerView: RecyclerView) {
         super.onAttachedToRecyclerView(recyclerView)
@@ -125,10 +125,10 @@ class RecyclerViewAdapter(private val activity: AppCompatActivity, private val i
 
             override fun publishResults(charSequence: CharSequence?, results: FilterResults?) {
                 @Suppress("UNCHECKED_CAST")
-                if (results?.values != null)
+                if (results?.values != null) {
                     filteredIdioms = results.values as ArrayList<IdiomModel>
-
-                notifyDataSetChanged()
+                    notifyDataSetChanged()
+                }
             }
         }
     }

@@ -31,6 +31,15 @@
                 android:orientation="vertical"
                 android:background="@drawable/bamboo_background">
 
+                <TextView
+                    android:id="@+id/text_view_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    tools:text="카드뷰" />
+
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="72dp"

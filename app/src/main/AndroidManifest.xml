@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.grand.duke.elliot.kim.kotlin.fourcharacteridiom">
 
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
     <application
         android:allowBackup="true"
@@ -13,7 +16,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activities.QuizActivity" />
         <activity
-            android:name=".activities.ViewPagerActivity"
+            android:name=".activities.view_pager.ViewPagerActivity"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name=".activities.MainActivity">
             <intent-filter>

@@ -70,22 +70,22 @@ class CardViewFragment : Fragment() {
             }
         }
 
-        if (idioms.isNotEmpty()) {
-            view.text_view_no_idioms.visibility = View.GONE
-            adapter =
-                RecyclerViewAdapter(
-                    requireActivity() as MainActivity,
-                    idioms
+        view.text_view_no_idioms.visibility = View.GONE
+        adapter =
+            RecyclerViewAdapter(
+                requireActivity() as MainActivity,
+                idioms
+            )
+        view.recycler_view.apply {
+            adapter = this@CardViewFragment.adapter
+            layoutManager =
+                GridLayoutManagerWrapper(
+                    requireContext(),
+                    1
                 )
-            view.recycler_view.apply {
-                adapter = this@CardViewFragment.adapter
-                layoutManager =
-                    GridLayoutManagerWrapper(
-                        requireContext(),
-                        1
-                    )
-            }
+        }
 
+        if (idioms.isNotEmpty()) {
             scrollToIdiomPosition(loadBookmark(bookmarkKey))
         } else
             view.text_view_no_idioms.visibility = View.VISIBLE

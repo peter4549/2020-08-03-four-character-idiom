@@ -1,4 +1,4 @@
-package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.room
+package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.database
 
 import androidx.room.Dao
 import androidx.room.Insert

@@ -1,4 +1,4 @@
-package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities
+package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.view_pager
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -10,12 +10,14 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
+import androidx.lifecycle.ViewModelProvider
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.gms.ads.AdListener
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.*
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.MainActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.adapters.RecyclerViewAdapter
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.PageViewFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.SelectConsonantDialogFragment
@@ -25,14 +27,14 @@ import kotlinx.android.synthetic.main.fragment_search.view.*
 
 class ViewPagerActivity : AppCompatActivity() {
 
-    private lateinit var bookmarkKey: String
+    private lateinit var viewModel: ViewPagerViewModel
     private lateinit var recyclerViewAdapter: RecyclerViewAdapter
-    private var currentPage = 0
-    private var totalPagesCount = 0
-    var idioms = arrayListOf<IdiomModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        viewModel = ViewModelProvider(viewModelStore, ViewPagerViewModelFactory())[ViewPagerViewModel::class.java]
+
         setContentView(R.layout.activity_view_pager)
 
         setSupportActionBar(toolbar)
@@ -43,32 +45,31 @@ class ViewPagerActivity : AppCompatActivity() {
 
         when(intent?.getIntExtra(MainActivity.KEY_SELECTED_PART, 0)) {
             SelectedPart.MY_IDIOMS -> {
-                bookmarkKey =
-                    BookmarksPreferences.KEY_MY_IDIOMS
+                viewModel.bookmarkKey = BookmarksPreferences.KEY_MY_IDIOMS
                 supportActionBar?.title = "내 사자성어"
-                idioms = MainActivity.idioms
+                viewModel.idioms = MainActivity.idioms
                     .filter { it.id in MainActivity.myIdiomIds } as ArrayList<IdiomModel>
             }
             SelectedPart.ALL_IDIOMS -> {
-                bookmarkKey =
+                viewModel.bookmarkKey =
                     BookmarksPreferences.KEY_ALL_IDIOMS
                 supportActionBar?.title = "모든 사자성어"
-                idioms = MainActivity.idioms
+                viewModel.idioms = MainActivity.idioms
             }
             SelectedPart.CIVIL_SERVICE_EXAMINATION_IDIOMS -> {
-                bookmarkKey =
+                viewModel.bookmarkKey =
                     BookmarksPreferences.KEY_CIVIL_SERVICE_EXAMINATION_IDIOMS
                 supportActionBar?.title = "공무원 사자성어"
-                idioms = MainActivity.idioms
+                viewModel.idioms = MainActivity.idioms
                     .filter { it.category == Category.CIVIL_SERVICE_EXAMINATION ||
                             it.category == Category.BOTH
                     } as ArrayList<IdiomModel>
             }
             SelectedPart.SAT_IDIOMS -> {
-                bookmarkKey =
+                viewModel.bookmarkKey =
                     BookmarksPreferences.KEY_SAT_IDIOMS
                 supportActionBar?.title = "수능 사자성어"
-                idioms = MainActivity.idioms
+                viewModel.idioms = MainActivity.idioms
                     .filter { it.category == Category.SAT ||
                             it.category == Category.BOTH
                     } as ArrayList<IdiomModel>
@@ -79,35 +80,32 @@ class ViewPagerActivity : AppCompatActivity() {
             }
         }
 
-        totalPagesCount = idioms.count()
-        if (totalPagesCount != 0) {
+        recyclerViewAdapter = RecyclerViewAdapter(this, viewModel.idioms)
+
+        viewModel.totalPagesCount = viewModel.idioms.count()
+        if (viewModel.totalPagesCount != 0) {
             text_view_no_idioms.visibility = View.GONE
-            recyclerViewAdapter =
-                RecyclerViewAdapter(
-                    this,
-                    idioms
-                )
-            view_pager.adapter = ViewPagerAdapter(this, idioms)
+            view_pager.adapter = ViewPagerAdapter(this, viewModel.idioms)
             view_pager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
                 override fun onPageSelected(position: Int) {
                     super.onPageSelected(position)
-                    currentPage = position
-                    setPageText(currentPage)
-                    setStar(idioms[currentPage])
+                    viewModel.currentPage = position
+                    setPageText(viewModel.currentPage)
+                    setStar(viewModel.idioms[viewModel.currentPage])
                 }
             })
 
-            currentPage = loadBookmark(bookmarkKey)
+            viewModel.currentPage = loadBookmark(viewModel.bookmarkKey)
 
-            moveToPage(currentPage)
+            moveToPage(viewModel.currentPage)
             image_view_star.setOnClickListener {
-                if (idioms[currentPage].id in MainActivity.myIdiomIds) {
+                if (viewModel.idioms[viewModel.currentPage].id in MainActivity.myIdiomIds) {
                     Toast.makeText(this, "내 사자성어에서 제외되었습니다.", Toast.LENGTH_SHORT).show()
-                    MainActivity.myIdiomIds.remove(idioms[currentPage].id)
+                    MainActivity.myIdiomIds.remove(viewModel.idioms[viewModel.currentPage].id)
                     image_view_star.setImageResource(R.drawable.ic_star_grey_36dp)
                 } else {
                     Toast.makeText(this, "내 사자성어에 추가되었습니다.", Toast.LENGTH_SHORT).show()
-                    MainActivity.myIdiomIds.add(idioms[currentPage].id)
+                    MainActivity.myIdiomIds.add(viewModel.idioms[viewModel.currentPage].id)
                     image_view_star.setImageResource(R.drawable.ic_star_blue_36dp)
                 }
             }
@@ -142,7 +140,7 @@ class ViewPagerActivity : AppCompatActivity() {
 
     private fun moveToPage(currentPage: Int) {
         setPageText(currentPage)
-        setStar(idioms[currentPage])
+        setStar(viewModel.idioms[currentPage])
         view_pager.setCurrentItem(currentPage, false)
     }
 
@@ -157,12 +155,12 @@ class ViewPagerActivity : AppCompatActivity() {
     }
 
     private fun setPageText(currentPage: Int) {
-        val page = "${currentPage + 1}/${totalPagesCount}"
+        val page = "${currentPage + 1}/${viewModel.totalPagesCount}"
         text_view_page.text = page
     }
 
     override fun onPause() {
-        saveBookmark(bookmarkKey, currentPage)
+        saveBookmark(viewModel.bookmarkKey, viewModel.currentPage)
         saveMyIdiomIds()
         super.onPause()
     }
@@ -185,13 +183,16 @@ class ViewPagerActivity : AppCompatActivity() {
         editor.apply()
     }
 
+    fun getIdioms() = viewModel.idioms
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_view_pager, menu)
 
         val searchView = menu?.findItem(R.id.item_search)?.actionView as SearchView
         searchView.setOnSearchClickListener {
-            if (supportFragmentManager.findFragmentByTag(TAG_SEARCH_FRAGMENT) == null)
+            if (supportFragmentManager.findFragmentByTag(TAG_SEARCH_FRAGMENT) == null) {
                 openSearchFragment()
+            }
         }
 
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
@@ -236,11 +237,11 @@ class ViewPagerActivity : AppCompatActivity() {
     fun scrollToIdiomPosition(idiom: IdiomModel) {
         if (supportFragmentManager.findFragmentByTag(TAG_SEARCH_FRAGMENT) != null)
             onBackPressed()
-        moveToPage(idioms.indexOf(idiom))
+        moveToPage(viewModel.idioms.indexOf(idiom))
         hideKeyboard()
     }
 
-    private inner class ViewPagerAdapter(fragmentActivity: FragmentActivity, private val idioms: ArrayList<IdiomModel>)
+    private class ViewPagerAdapter(fragmentActivity: FragmentActivity, private val idioms: ArrayList<IdiomModel>)
         : FragmentStateAdapter(fragmentActivity) {
         override fun getItemCount(): Int {
             return idioms.count()

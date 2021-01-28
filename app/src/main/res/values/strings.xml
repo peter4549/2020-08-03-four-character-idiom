@@ -33,4 +33,5 @@
     <string name="start_anew">새로 시작하기</string>
     <string name="ask_to_quit_application">앱을 종료하시겠습니까?</string>
     <string name="complete_quiz">축하합니다!\n퀴즈를 완료하셨습니다.</string>
+    <string name="set_daily_alarm">매일 알람 설정</string>
 </resources>

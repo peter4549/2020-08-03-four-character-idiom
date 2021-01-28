@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.fragment.app.DialogFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.R
-import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.ViewPagerActivity
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.view_pager.ViewPagerActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.fragment_select_consonant_dialog.view.*
 
@@ -23,15 +23,13 @@ class SelectConsonantDialogFragment : DialogFragment() {
     private var selectedConsonant = ""
 
     fun setActivity(activity: ViewPagerActivity) {
-        previousView =
-            VIEW_PAGER_ACTIVITY
+        previousView = VIEW_PAGER_ACTIVITY
         this.activity = activity
-        this.idioms = activity.idioms
+        this.idioms = activity.getIdioms()
     }
 
     fun setFragment(fragment: CardViewFragment) {
-        previousView =
-            CARD_VIEW_FRAGMENT
+        previousView = CARD_VIEW_FRAGMENT
         this.fragment = fragment
         this.idioms = fragment.idioms
     }
@@ -47,10 +45,7 @@ class SelectConsonantDialogFragment : DialogFragment() {
         view.spinner.adapter =
             ArrayAdapter(requireContext(), android.R.layout.simple_spinner_item, consonants)
         view.spinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-
-            }
-
+            override fun onNothingSelected(parent: AdapterView<*>?) {}
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 when(position) {
                     0 -> selectedConsonant = ""

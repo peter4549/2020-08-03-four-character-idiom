@@ -1,5 +1,7 @@
 package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom
 
+const val blank = ""
+
 object Category {
     const val BOTH = 1
     const val SAT = 2

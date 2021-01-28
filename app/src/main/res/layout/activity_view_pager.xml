@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/colorBackgroundYellow"
-    tools:context=".activities.ViewPagerActivity">
+    tools:context=".activities.view_pager.ViewPagerActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

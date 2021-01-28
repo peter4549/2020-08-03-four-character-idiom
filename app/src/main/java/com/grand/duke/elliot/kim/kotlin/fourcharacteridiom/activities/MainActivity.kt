@@ -2,10 +2,14 @@ package com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.google.android.gms.ads.AdListener
@@ -14,6 +18,7 @@ import com.google.android.gms.ads.MobileAds
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.*
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.activities.view_pager.ViewPagerActivity
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.CardViewFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.ConfirmLoadExistingQuizDialogFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.ExitApplicationDialogFragment
@@ -27,8 +32,6 @@ import kotlin.collections.ArrayList
 import kotlin.collections.HashSet
 
 class MainActivity : AppCompatActivity() {
-
-    private val cardViewFragment = CardViewFragment()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -126,6 +129,10 @@ class MainActivity : AppCompatActivity() {
             else -> viewOption
         }
 
+        text_view_option.text =
+            if(viewOption == CARD_VIEW) getString(R.string.view_in_card_view)
+            else getString(R.string.view_in_page_view)
+
         return super.onOptionsItemSelected(item)
     }
 
@@ -146,7 +153,7 @@ class MainActivity : AppCompatActivity() {
                 R.anim.anim_slide_out_to_bottom
             ).replace(
                 R.id.frame_layout_scroll_view,
-                cardViewFragment,
+                CardViewFragment(),
                 TAG_CARD_VIEW_FRAGMENT
             ).commit()
     }
@@ -199,6 +206,9 @@ class MainActivity : AppCompatActivity() {
         val preferences = getSharedPreferences(ApplicationPreferences.PREFERENCES_APPLICATION, Context.MODE_PRIVATE)
         viewOption = preferences.getInt(
             ApplicationPreferences.KEY_VIEW_OPTION, 0)
+        text_view_option.text =
+            if(viewOption == CARD_VIEW) getString(R.string.view_in_card_view)
+            else getString(R.string.view_in_page_view)
     }
 
     private fun saveViewOption() {
@@ -246,6 +256,45 @@ class MainActivity : AppCompatActivity() {
         }
 
         return ArrayList(idioms)
+    }
+
+    fun checkPermission() {
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if(!Settings.canDrawOverlays(this)) {
+                val uri = Uri.fromParts("package", packageName, null)
+                val intent = Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION, uri)
+                startActivityForResult(intent, 0)
+            } else {
+                val intent = Intent(applicationContext, LockScreenService::class.java)
+                // startService(intent)
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    LockScreenService().enqueueWork(this, intent)
+                    startForegroundService(intent)
+                } else {
+                    LockScreenService().enqueueWork(this, intent)
+                    startService(intent)
+                }
+
+            }
+        }
+    }
+
+    @RequiresApi(Build.VERSION_CODES.M)
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if(requestCode == 0) {
+            if(!Settings.canDrawOverlays(this)) {
+                Toast.makeText(this, "해라", Toast.LENGTH_LONG).show()
+            } else {
+                val intent = Intent(applicationContext, LockScreenService::class.java)
+                startService(intent)
+                LockScreenService().enqueueWork(this, intent)
+            }
+        }
+    }
+
+    fun showToast(context: Context, text: String, duration: Int = Toast.LENGTH_LONG) {
+        Toast.makeText(context, text, duration).show()
     }
 
     companion object {

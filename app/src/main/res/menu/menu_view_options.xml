@@ -3,8 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/item_card_view"
-        android:title="@string/view_in_card_view" />
+        android:title="@string/view_in_card_view"
+        app:showAsAction="never" />
     <item
         android:id="@+id/item_page_view"
-        android:title="@string/view_in_page_view" />
+        android:title="@string/view_in_page_view"
+        app:showAsAction="never"/>
+
+    <!--
+    <item
+        android:id="@+id/item_set_daily_alarm"
+        android:title="@string/set_daily_alarm"
+        app:showAsAction="never"/>
+    -->
 </menu>

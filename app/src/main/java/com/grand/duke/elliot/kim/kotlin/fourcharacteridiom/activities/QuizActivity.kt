@@ -22,8 +22,8 @@ import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.CompleteQui
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.QuizFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.QuizModel
-import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.room.Dao
-import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.room.Database
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.database.Dao
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.database.Database
 import kotlinx.android.synthetic.main.activity_quiz.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
