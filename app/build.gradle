@@ -23,6 +23,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -52,4 +56,10 @@ dependencies {
 
     // AdMob
     implementation 'com.google.android.gms:play-services-ads:19.3.0'
+
+    // Timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    // android-gif-drawable
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
 }

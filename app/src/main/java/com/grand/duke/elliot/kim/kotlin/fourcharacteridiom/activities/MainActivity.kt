@@ -23,8 +23,10 @@ import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.CardViewFra
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.ConfirmLoadExistingQuizDialogFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.ExitApplicationDialogFragment
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.fragments.SelectPartDialogFragment
+import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.lock_screen.LockScreenService
 import com.grand.duke.elliot.kim.kotlin.fourcharacteridiom.model.IdiomModel
 import kotlinx.android.synthetic.main.activity_main.*
+import timber.log.Timber
 import java.io.IOException
 import java.nio.charset.Charset
 import java.util.*
@@ -43,8 +45,13 @@ class MainActivity : AppCompatActivity() {
             R.color.colorToolbar
         ))
 
+        Timber.plant(Timber.DebugTree())
+
         loadMyIdioms()
         loadViewOption()
+
+        // TODO check here.
+        checkPermission()
 
         idioms = getIdiomsFromAssets()
         Collections.sort(idioms, Comparator { o1: IdiomModel, o2: IdiomModel ->
